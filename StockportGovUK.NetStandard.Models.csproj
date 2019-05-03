@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>StockportGovUK.NetStandard.Models</PackageId>
+    <Title>A package that provides shared models for StockportGovUK applications</Title>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <VersionPrefix>0.3.0</VersionPrefix>
+    <Authors>Colin Lees, Jon Chiles, Jon Hadley</Authors>
+    <Company>Stockport Council</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

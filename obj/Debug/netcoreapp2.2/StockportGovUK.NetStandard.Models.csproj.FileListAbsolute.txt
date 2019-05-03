@@ -1,0 +1,11 @@
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\bin\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.deps.json
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\bin\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.dll
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\bin\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.pdb
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.csprojAssemblyReference.cache
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.csproj.CoreCompileInputs.cache
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.AssemblyInfoInputs.cache
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.AssemblyInfo.cs
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.dll
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\obj\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.pdb
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\bin\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.runtimeconfig.json
+c:\code\shared-applications\micro-service-example\packages\StockportGovUK.NetStandard.Models\bin\Debug\netcoreapp2.2\StockportGovUK.NetStandard.Models.runtimeconfig.dev.json

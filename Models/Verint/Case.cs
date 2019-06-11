@@ -1,0 +1,97 @@
+﻿using System;
+using System.Collections.Generic;
+using StockportGovUK.NetStandard.Models.Models.Verint.Eforms;
+
+namespace StockportGovUK.NetStandard.Models.Models.Verint
+{
+    public class Case
+    {
+        public Guid ID { get; set; }
+
+        public bool AnonymousSubmission { get; set; }
+
+        public Customer Customer { get; set; }
+
+        public Organisation Organisation { get; set; }
+
+        public string DefinitionName { get; set; }
+
+        public string IntegrationFormName { get; set; }
+
+        public List<CustomField> IntegrationFormFields { get; set; }
+
+        public List<CustomField> CaseFormFields { get; set; }
+
+        public List<Note> Notes { get; set; }
+
+        public string FormName { get; set; }
+
+        public string EventTitle { get; set; }
+
+        public int EventCode { get; set; }
+
+        public string EventId { get; set; }
+
+        public string Status { get; set; }
+
+        public DateTime EventDate { get; set; }
+
+        public bool HasEventCode
+        {
+            get
+            {
+                return this.EventCode != 0;
+            }
+        }
+
+        public string EventFurtherInformation { get; set; }
+
+        public Street Street { get; set; }
+
+        public Address Property { get; set; }
+
+        public string FurtherLocationInformation { get; set; }
+
+        public string Description { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
+
+        public string CaseReference { get; set; }
+
+        public long InteractionReference { get; set; }
+
+        public string Queue { get; set; }
+
+        public string Classification { get; set; }
+
+        public string EnquirySubject { get; set; }
+
+        public string EnquiryReason { get; set; }
+
+        public string EnquiryType { get; set; }
+
+        public List<CustomField> CustomAttributes { get; set; }
+
+        public bool IsSMBCEmployee { get; set; }
+
+        public string SMBCChannel { get; set; }
+
+        public string CaseTitle { get; set; }
+
+        public BaseEform Eform { get; set; }
+
+        public DestinationSystem DestinationSystem { get; set; }
+
+        public Guid BookingId { get; set; }
+
+        public DateTime BookingDate { get; set; }
+
+        public string BookingTime { get; set; }
+
+        public decimal Price { get; set; }
+
+        public string PaymentRef { get; set; }
+
+        public List<string> LinkCases { get; set; }
+    }
+}

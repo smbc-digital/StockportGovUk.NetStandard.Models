@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using StockportGovUK.NetStandard.Models.Enums;
+﻿using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.Models.Fostering
 {
@@ -7,7 +6,9 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
     {
         public FosteringCaseStatuses Statuses { get; set; }
 
-        public List<FosteringApplicant> Applicants { get; set; }
+        public FosteringApplicant FirstApplicant { get; set; }
+
+        public FosteringApplicant SecondApplicant { get; set; }
     }
 
     public class FosteringApplicant

@@ -30,6 +30,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string SexualOrientation { get; set; }
 
         public string Religion { get; set; }
+
+        public string PlaceOfBirth { get; set; }
     }
 
     public class FosteringCaseStatuses

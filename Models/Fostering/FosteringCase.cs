@@ -17,7 +17,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string LastName { get; set; }
 
-        public bool EverBeenKnownByAnotherName { get; set; }
+        public bool? EverBeenKnownByAnotherName { get; set; }
 
         public string Nationality { get; set; }
 
@@ -32,6 +32,14 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string Religion { get; set; }
 
         public string PlaceOfBirth { get; set; }
+
+        public bool? AreYouEmployed { get; set; }
+
+        public string CurrentEmployer { get; set; }
+
+        public string JobTitle { get; set; }
+
+        public bool? CurrentHoursOfWork { get; set; }
     }
 
     public class FosteringCaseStatuses

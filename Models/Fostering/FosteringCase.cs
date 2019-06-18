@@ -39,7 +39,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string JobTitle { get; set; }
 
-        public bool? CurrentHoursOfWork { get; set; }
+        public EHoursOfWork CurrentHoursOfWork { get; set; }
     }
 
     public class FosteringCaseStatuses

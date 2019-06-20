@@ -2,6 +2,8 @@
 {
     public class FosteringCaseAboutYourselfUpdateModel
     {
+        public string CaseReference { get; set; }
+
         public FosteringCaseAboutYourselfApplicantUpdateModel FirstApplicant { get; set; }
 
         public FosteringCaseAboutYourselfApplicantUpdateModel SecondApplicant { get; set; }

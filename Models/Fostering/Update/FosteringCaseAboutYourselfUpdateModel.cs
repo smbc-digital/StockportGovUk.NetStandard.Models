@@ -11,11 +11,13 @@
 
     public class FosteringCaseAboutYourselfApplicantUpdateModel
     {
-        public bool EverBeenKnownByAnotherName { get; set; }
+        public bool? EverBeenKnownByAnotherName { get; set; }
 
         public string Nationality { get; set; }
 
         public string Ethnicity { get; set; }
+
+        public string PlaceOfBirth { get; set; }
 
         public string Gender { get; set; }
 

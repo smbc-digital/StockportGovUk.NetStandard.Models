@@ -1,4 +1,5 @@
-﻿using StockportGovUK.NetStandard.Models.Enums;
+﻿using System;
+using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.Models.Fostering
 {
@@ -11,8 +12,14 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public FosteringApplicant SecondApplicant { get; set; }
 
         public string PrimaryLanguage { get; set; }
-
+       
         public string OtherLanguages { get; set; }
+
+        public bool? MarriedOrInACivilPartnership { get; set; }
+
+        public DateTime? DateOfMarriage { get; set; }
+
+        public DateTime? DateMovedInTogether { get; set; }
     }
 
     public class FosteringApplicant
@@ -44,6 +51,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string JobTitle { get; set; }
 
         public EHoursOfWork CurrentHoursOfWork { get; set; }
+
+        public bool? PreviouslyApplied { get; set; }
     }
 
     public class FosteringCaseStatuses

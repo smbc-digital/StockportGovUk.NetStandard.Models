@@ -6,6 +6,6 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
 
         public string PrimaryLanguage { get; set; }
 
-        public string OtherLanguagesSpoken { get; set; }
+        public string OtherLanguages { get; set; }
     }
 }

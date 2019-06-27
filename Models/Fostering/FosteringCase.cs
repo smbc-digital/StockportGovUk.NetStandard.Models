@@ -11,6 +11,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public FosteringApplicant SecondApplicant { get; set; }
 
+        public string WithPartner { get; set; }
+
         public string PrimaryLanguage { get; set; }
        
         public string OtherLanguages { get; set; }

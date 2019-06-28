@@ -18,7 +18,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string OtherLanguages { get; set; }
 
         public bool? MarriedOrInACivilPartnership { get; set; }
-
+                
         public DateTime? DateOfMarriage { get; set; }
 
         public DateTime? DateMovedInTogether { get; set; }
@@ -55,6 +55,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public EHoursOfWork CurrentHoursOfWork { get; set; }
 
         public bool? PreviouslyApplied { get; set; }
+
+        public bool? RegisteredDisabled { get; set; }
+
+        public bool? Practitioner { get; set; }
     }
 
     public class FosteringCaseStatuses

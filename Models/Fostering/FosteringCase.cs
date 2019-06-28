@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.Models.Fostering
@@ -22,6 +23,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public DateTime? DateOfMarriage { get; set; }
 
         public DateTime? DateMovedInTogether { get; set; }
+
+        public string ReasonsForFostering { get; set; }
+
+        public List<string> TypesOfFostering { get; set; }
     }
 
     public class FosteringApplicant

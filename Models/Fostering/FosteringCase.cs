@@ -12,6 +12,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public FosteringApplicant SecondApplicant { get; set; }
 
+        public bool AnyOtherPeopleInYourHousehold { get; set; }
+
+        public List<OtherPerson> OtherPeopleInYourHousehold { get; set; }
+
         public string WithPartner { get; set; }
 
         public string PrimaryLanguage { get; set; }
@@ -85,5 +89,16 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public ETaskStatus YourHouseholdStatus { get; set; }
 
         public ETaskStatus ChildrenLivingAwayFromYourHomeStatus { get; set; }
+    }
+
+    public class OtherPerson
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
+
+        public string Gender { get; set; }
     }
 }

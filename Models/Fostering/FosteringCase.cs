@@ -12,7 +12,9 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public FosteringApplicant SecondApplicant { get; set; }
 
-        public bool AnyOtherPeopleInYourHousehold { get; set; }
+        public bool? AnyOtherPeopleInYourHousehold { get; set; }
+
+        public bool? DoYouHaveAnyPets { get; set; }
 
         public List<OtherPerson> OtherPeopleInYourHousehold { get; set; }
 

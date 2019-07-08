@@ -16,6 +16,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public bool? DoYouHaveAnyPets { get; set; }
 
+        public string PetsInformation { get; set; }
+
         public List<OtherPerson> OtherPeopleInYourHousehold { get; set; }
 
         public string WithPartner { get; set; }

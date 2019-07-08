@@ -10,6 +10,7 @@
         YourHealth,
         TellUsAboutYourInterestInFostering,
         YourHousehold,
-        ChildrenLivingAwayFromYourHome
+        ChildrenUnderSixteenLivingAwayFromYourHome,
+        ChildrenOverSixteenLivingAwayFromYourHome
     }
 }

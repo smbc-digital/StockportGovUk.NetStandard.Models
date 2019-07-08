@@ -72,6 +72,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public bool? RegisteredDisabled { get; set; }
 
         public bool? Practitioner { get; set; }
+
+        public List<OtherPerson> ChildrenUnderSixteenInYourHousehold { get; set; }
+
+        public bool? AnyChildrenUnderSixteen { get; set; }
     }
 
     public class FosteringCaseStatuses
@@ -92,7 +96,9 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public ETaskStatus YourHouseholdStatus { get; set; }
 
-        public ETaskStatus ChildrenLivingAwayFromYourHomeStatus { get; set; }
+        public ETaskStatus ChildrenUnderSixteenLivingAwayFromYourHomeStatus { get; set; }
+
+        public ETaskStatus ChildrenOverSixteenLivingAwayFromYourHomeStatus { get; set; }
     }
 
     public class OtherPerson
@@ -104,5 +110,13 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public DateTime? DateOfBirth { get; set; }
 
         public string Gender { get; set; }
+
+        public string AddressLine1 { get; set; }
+
+        public string AddressLine2 { get; set; }
+
+        public string Town { get; set; }
+
+        public string Postcode { get; set; }
     }
 }

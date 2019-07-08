@@ -76,6 +76,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public List<OtherPerson> ChildrenUnderSixteenInYourHousehold { get; set; }
 
         public bool? AnyChildrenUnderSixteen { get; set; }
+
+        public List<OtherPerson> ChildrenOver16InYourHousehold { get; set; }
+
+        public bool? AnyChildrenOver16 { get; set; }
     }
 
     public class FosteringCaseStatuses

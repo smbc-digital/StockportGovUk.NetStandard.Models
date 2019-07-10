@@ -100,9 +100,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public ETaskStatus YourHouseholdStatus { get; set; }
 
-        public ETaskStatus ChildrenUnderSixteenLivingAwayFromYourHomeStatus { get; set; }
-
-        public ETaskStatus ChildrenOverSixteenLivingAwayFromYourHomeStatus { get; set; }
+        public ETaskStatus ChildrenLivingAwayFromYourHomeStatus { get; set; }
     }
 
     public class OtherPerson

@@ -113,7 +113,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string Gender { get; set; }
 
-        public Address? Address { get; set; }
+        public Address Address { get; set; }
     }
 
     public class Address 

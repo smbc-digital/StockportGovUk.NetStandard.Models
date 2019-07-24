@@ -35,6 +35,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string ReasonsForFostering { get; set; }
 
         public List<string> TypesOfFostering { get; set; }
+
+        public DateTime? HomeVisitDateTime { get; set; }
     }
 
     public class FosteringApplicant

@@ -23,8 +23,6 @@
 
         public string AnotherName { get; set; }
 
-        public string SexualOrientation { get; set; }
-
         public string Religion { get; set; }
     }
 }

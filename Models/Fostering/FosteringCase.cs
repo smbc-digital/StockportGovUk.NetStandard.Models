@@ -55,8 +55,6 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string AnotherName { get; set; }
 
-        public string SexualOrientation { get; set; }
-
         public string Religion { get; set; }
 
         public string PlaceOfBirth { get; set; }

@@ -39,6 +39,12 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public DateTime? HomeVisitDateTime { get; set; }
 
         public bool EnableAdditionalInformationSection { get; set; }
+
+        public ReferenceDetails FamilyReference { get; set; }
+
+        public ReferenceDetails FirstPersonalReference { get; set; }
+
+        public ReferenceDetails SecondPersonalReference { get; set; }
     }
 
     public class FosteringApplicant
@@ -124,6 +130,23 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string Gender { get; set; }
 
         public string RelationshipToYou { get; set; }
+
+        public Address Address { get; set; }
+    }
+
+    public class ReferenceDetails
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string RelationsipToYou { get; set; }
+
+        public string NumbersOfYearsKnown { get; set; }
+
+        public string EmailAddress { get; set; }
+
+        public string PhoneNumber { get; set; }
 
         public Address Address { get; set; }
     }

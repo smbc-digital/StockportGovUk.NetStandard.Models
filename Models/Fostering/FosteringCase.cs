@@ -85,6 +85,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string NameOfGpPractice { get; set; }
 
+        public string GpPhoneNumber { get; set; }
+
         public Address GpAddress { get; set; }
     }
 

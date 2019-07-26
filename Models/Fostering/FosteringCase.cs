@@ -80,6 +80,12 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public bool? AnyChildrenOverSixteen { get; set; }
 
         public List<OtherPerson> ChildrenOverSixteenLivingAwayFromHome { get; set; }
+
+        public string NameOfGp { get; set; }
+
+        public string NameOfGpPractice { get; set; }
+
+        public Address GpAddress { get; set; }
     }
 
     public class FosteringCaseStatuses
@@ -120,6 +126,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
     public class Address 
     {
+        public string SelectedAddress { get; set; }
+
         public string AddressLine1 { get; set; }
 
         public string AddressLine2 { get; set; }
@@ -127,5 +135,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string Town { get; set; }
 
         public string Postcode { get; set; }
+
+        public string PlaceRef { get; set; }
     }
 }

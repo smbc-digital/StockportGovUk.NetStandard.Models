@@ -1,6 +1,6 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
 {
-    public class FosteringCasReferenceUpdateModel
+    public class FosteringCaseReferenceUpdateModel
     {
         public string CaseReference { get; set; }
 

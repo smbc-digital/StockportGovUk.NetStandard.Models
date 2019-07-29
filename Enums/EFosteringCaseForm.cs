@@ -11,6 +11,7 @@
         TellUsAboutYourInterestInFostering,
         YourHousehold,
         ChildrenLivingAwayFromYourHome,
-        References
+        References,
+        GpDetails
     }
 }

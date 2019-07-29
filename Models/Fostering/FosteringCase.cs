@@ -140,9 +140,9 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public string LastName { get; set; }
 
-        public string RelationsipToYou { get; set; }
+        public string RelationshipToYou { get; set; }
 
-        public string NumbersOfYearsKnown { get; set; }
+        public string NumberOfYearsKnown { get; set; }
 
         public string EmailAddress { get; set; }
 

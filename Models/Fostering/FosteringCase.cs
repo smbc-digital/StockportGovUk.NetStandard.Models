@@ -118,6 +118,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public ETaskStatus ChildrenLivingAwayFromYourHomeStatus { get; set; }
 
+        public ETaskStatus References { get; set; }
+
         public ETaskStatus GpDetailsStatus { get; set; }
     }
 

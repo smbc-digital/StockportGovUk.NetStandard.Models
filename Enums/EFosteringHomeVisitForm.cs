@@ -1,6 +1,6 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Enums
 {
-    public enum EFosteringCaseForm
+    public enum EFosteringHomeVisitForm
     {
         TellUsAboutYourself,
         YourEmploymentDetails,

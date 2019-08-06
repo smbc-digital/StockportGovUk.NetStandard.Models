@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
+namespace StockportGovUK.NetStandard.Models.Models.Fostering.HomeVisit
 {
     public class FosteringCaseHouseholdUpdateModel
     {

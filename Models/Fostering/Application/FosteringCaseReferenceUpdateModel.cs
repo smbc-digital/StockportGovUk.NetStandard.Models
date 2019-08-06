@@ -1,4 +1,4 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
+﻿namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
 {
     public class FosteringCaseReferenceUpdateModel
     {

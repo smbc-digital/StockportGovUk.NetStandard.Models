@@ -1,7 +1,7 @@
 ﻿using StockportGovUK.NetStandard.Models.Attributes;
 using System.ComponentModel.DataAnnotations;
 
-namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
+namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
 {
     public class FosteringCaseGpDetailsUpdateModel
     {

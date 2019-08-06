@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Enums;
 
-namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
+namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
 {
     public class FosteringCaseStatusUpdateModel
     {
@@ -8,6 +8,6 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
 
         public ETaskStatus Status { get; set; }
 
-        public EFosteringHomeVisitForm Form { get; set; }
+        public EFosteringApplicationForm Form { get; set; }
     }
 }

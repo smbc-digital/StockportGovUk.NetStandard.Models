@@ -1,4 +1,4 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
+﻿namespace StockportGovUK.NetStandard.Models.Models.Fostering.HomeVisit
 {
     public class FosteringCaseAboutYourselfUpdateModel
     {

@@ -8,6 +8,6 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Update
 
         public ETaskStatus Status { get; set; }
 
-        public EFosteringCaseForm Form { get; set; }
+        public EFosteringHomeVisitForm Form { get; set; }
     }
 }

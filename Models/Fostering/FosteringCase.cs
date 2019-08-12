@@ -100,6 +100,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public bool? HasContactWithCouncillor { get; set; }
 
         public List<CouncillorRelationshipDetails> CouncillorRelationshipDetails { get; set; }
+
+        public List<PreviousAddress> AddressHistory { get; set; }
     }
 
     public class FosteringCaseStatuses
@@ -157,6 +159,28 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string PhoneNumber { get; set; }
 
         public Address Address { get; set; }
+    }
+
+    public class PreviousAddress
+    {
+        public DateTime DateFrom { get; set; }
+
+        public InternationalAddress Address { get; set; }
+    }
+
+    public class InternationalAddress
+    {
+        public string AddressLine1 { get; set; }
+
+        public string AddressLine2 { get; set; }
+
+        public string Town { get; set; }
+
+        public string County { get; set; }
+
+        public string Country { get; set; }
+
+        public string Postcode { get; set; }
     }
 
     public class Address 

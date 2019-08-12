@@ -96,6 +96,10 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string GpPhoneNumber { get; set; }
 
         public Address GpAddress { get; set; }
+
+        public bool? HasContactWithCouncillor { get; set; }
+
+        public List<CouncillorRelationshipDetails> CouncillorRelationshipDetails { get; set; }
     }
 
     public class FosteringCaseStatuses
@@ -168,5 +172,12 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public string Postcode { get; set; }
 
         public string PlaceRef { get; set; }
+    }
+
+    public class CouncillorRelationshipDetails
+    {
+        public string CouncillorName { get; set; }
+
+        public string Relationship { get; set; }
     }
 }

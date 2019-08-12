@@ -163,7 +163,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
     public class PreviousAddress
     {
-        public DateTime DateFrom { get; set; }
+        public DateTime? DateFrom { get; set; }
 
         public InternationalAddress Address { get; set; }
     }

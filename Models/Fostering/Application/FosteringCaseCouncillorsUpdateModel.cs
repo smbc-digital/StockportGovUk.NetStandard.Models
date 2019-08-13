@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using StockportGovUK.NetStandard.Models.Attributes;
 
 namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
 {
@@ -8,6 +9,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
         [Required]
         public string CaseReference { get; set; }
 
+        [Required]
         public FosteringCaseCouncillorsApplicantUpdateModel FirstApplicant { get; set; }
 
         public FosteringCaseCouncillorsApplicantUpdateModel SecondApplicant { get; set; }
@@ -18,7 +20,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
         [Required]
         public bool HasContactWithCouncillor { get; set; }
 
-        [Required]
+        [RequiredIf("HasContactWithCouncillor", "The CouncillorRelationshipDetails field is required.")]
         public List<CouncillorRelationshipDetailsUpdateModel> CouncillorRelationshipDetails { get; set; }
     }
 

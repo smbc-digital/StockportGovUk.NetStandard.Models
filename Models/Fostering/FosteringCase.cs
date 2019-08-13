@@ -127,6 +127,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
         public ETaskStatus ReferencesStatus { get; set; }
 
         public ETaskStatus GpDetailsStatus { get; set; }
+
+        public ETaskStatus CouncillorsOrEmployeesStatus { get; set; }
     }
 
     public class OtherPerson

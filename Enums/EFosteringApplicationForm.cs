@@ -3,6 +3,7 @@
     public enum EFosteringApplicationForm
     {
         References,
-        GpDetails
+        GpDetails,
+        CouncillorsOrEmployees
     }
 }

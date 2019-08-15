@@ -4,6 +4,7 @@
     {
         References,
         GpDetails,
-        CouncillorsOrEmployees
+        CouncillorsOrEmployees,
+        AddressHistory
     }
 }

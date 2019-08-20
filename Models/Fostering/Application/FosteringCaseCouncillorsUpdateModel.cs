@@ -21,17 +21,17 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
         [Required]
         public bool HasContactWithCouncillor { get; set; }
 
-        private List<CouncillorRelationshipDetailsUpdateModel> councillorRelationshipDetails;
+        private List<CouncillorRelationshipDetailsUpdateModel> _councillorRelationshipDetails;
 
         [RequiredIf("HasContactWithCouncillor", "The HasContactWithCouncillor field is required.")]
         public List<CouncillorRelationshipDetailsUpdateModel> CouncillorRelationshipDetails
         {
-            get => councillorRelationshipDetails;
+            get => _councillorRelationshipDetails;
 
             set
             {
-                councillorRelationshipDetails = new List<CouncillorRelationshipDetailsUpdateModel>();
-                value.ForEach(_ => councillorRelationshipDetails.Add(new CouncillorRelationshipDetailsUpdateModel
+                _councillorRelationshipDetails = new List<CouncillorRelationshipDetailsUpdateModel>();
+                value.ForEach(_ => _councillorRelationshipDetails.Add(new CouncillorRelationshipDetailsUpdateModel
                 {
                     CouncillorName = _.CouncillorName,
                     Relationship = _.Relationship,

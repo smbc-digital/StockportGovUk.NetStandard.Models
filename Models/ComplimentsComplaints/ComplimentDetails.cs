@@ -7,5 +7,7 @@
         public string CouncilDepartmentOther { get; set; }
 
         public string Compliment { get; set; }
+
+        public string Name { get; set; }
     }
 }

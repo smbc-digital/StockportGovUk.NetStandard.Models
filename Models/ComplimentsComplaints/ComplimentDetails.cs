@@ -1,6 +1,6 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 {
-    class ComplimentDetails
+    public class ComplimentDetails
     {
         public string CouncilDepartment { get; set; }
 

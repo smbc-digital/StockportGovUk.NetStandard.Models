@@ -40,6 +40,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Fostering
 
         public bool EnableAdditionalInformationSection { get; set; }
 
+        public bool IsCompleted { get; set; }
+
         public ReferenceDetails FamilyReference { get; set; }
 
         public ReferenceDetails FirstPersonalReference { get; set; }

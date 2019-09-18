@@ -1,22 +1,20 @@
-﻿using StockportGovUK.NetStandard.Models.Models.Verint;
+﻿using System;
+using StockportGovUK.NetStandard.Models.Models.Verint;
 
 namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 {
     public class ComplaintDetails
     {
+        public Guid Guid { get; set; }
+        public string ComplainAbout { get; set; }
+
         public string CouncilDepartment { get; set; }
 
-        public string CouncilDepartmentOther { get; set; }
+        public string ComplainAboutBins { get; set; }
 
-        public string CouncilDepartmentSub { get; set; }
+        public string ComplainAboutBinsService { get; set; }
 
-        public string ComplaintType { get; set; }
-
-        public string StaffName { get; set; }
-
-        public string Complaint { get; set; }
-
-        public string EventCode { get; set; }
+        public string ComplainAboutBinsDetails { get; set; }
 
         public string FirstName { get; set; }
 
@@ -26,7 +24,6 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string EmailAddress { get; set; }
 
-        public Address Address { get; set; }
-
+        public Address AddressFinder { get; set; }
     }
 }

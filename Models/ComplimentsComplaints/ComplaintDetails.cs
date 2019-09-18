@@ -10,6 +10,8 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string CouncilDepartment { get; set; }
 
+        public string OtherService { get; set; } 
+
         public string ComplainAboutBins { get; set; }
 
         public string ComplainAboutBinsService { get; set; }

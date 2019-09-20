@@ -31,5 +31,11 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
         public string EmailAddress { get; set; }
 
         public Address AddressFinder { get; set; }
+
+        public string Complaint { get; set; }
+
+        public string EventCode { get; set; }
+
+        public string Name { get; set; }
     }
 }

@@ -13,14 +13,14 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
         public string CouncilDepartmentCouncilTax { get; set; }
 
         public string CouncilDepartmentPlanning { get; set; }
+        
+        public string CouncilDepartmentEnvironment { get; set; }
 
         public string OtherService { get; set; } 
 
-        public string ComplainAboutBins { get; set; }
+        public string ComplainAboutService { get; set; }
 
-        public string ComplainAboutBinsService { get; set; }
-
-        public string ComplainAboutBinsDetails { get; set; }
+        public string ComplainAboutDetails { get; set; }
 
         public string FirstName { get; set; }
 

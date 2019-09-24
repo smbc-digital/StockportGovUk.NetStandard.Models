@@ -6,21 +6,18 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
     public class ComplaintDetails
     {
         public Guid Guid { get; set; }
+
         public string ComplainAbout { get; set; }
 
         public string CouncilDepartment { get; set; }
-
-        public string CouncilDepartmentCouncilTax { get; set; }
-
-        public string CouncilDepartmentPlanning { get; set; }
+        
+        public string CouncilDepartmentSub { get; set; }
 
         public string OtherService { get; set; } 
 
-        public string ComplainAboutBins { get; set; }
+        public string ComplainAboutService { get; set; }
 
-        public string ComplainAboutBinsService { get; set; }
-
-        public string ComplainAboutBinsDetails { get; set; }
+        public string ComplainAboutDetails { get; set; }
 
         public string FirstName { get; set; }
 
@@ -30,6 +27,8 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string EmailAddress { get; set; }
 
-        public Address AddressFinder { get; set; }
+        public Address Address { get; set; }
+
+        public string EventCode { get; set; }
     }
 }

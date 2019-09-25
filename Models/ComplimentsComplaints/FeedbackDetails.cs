@@ -8,7 +8,7 @@
 
         public string CouncilDepartmentSub { get; set; }
 
-        public string Compliment { get; set; }
+        public string Feedback { get; set; }
 
         public string EventCode { get; set; }
 

@@ -19,6 +19,13 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string ComplainAboutDetails { get; set; }
 
+        public ComplaintContactDetails ContactDetails { get; set; }
+
+        public string EventCode { get; set; }
+    }
+
+    public class ComplaintContactDetails
+    {
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -27,8 +34,6 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string EmailAddress { get; set; }
 
-        public Address Address { get; set; }
-
-        public string EventCode { get; set; }
+        public Address Address { get; set; } = new Address();
     }
 }

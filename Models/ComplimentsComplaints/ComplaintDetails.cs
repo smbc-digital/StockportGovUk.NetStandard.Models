@@ -1,5 +1,4 @@
 ﻿using System;
-using StockportGovUK.NetStandard.Models.Models.Verint;
 
 namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 {
@@ -19,21 +18,8 @@ namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
 
         public string ComplainAboutDetails { get; set; }
 
-        public ComplaintContactDetails ContactDetails { get; set; }
+        public ContactDetails.ContactDetails ContactDetails { get; set; }
 
         public string EventCode { get; set; }
-    }
-
-    public class ComplaintContactDetails
-    {
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
-        public string PhoneNumber { get; set; }
-
-        public string EmailAddress { get; set; }
-
-        public Address Address { get; set; } = new Address();
     }
 }

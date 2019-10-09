@@ -2,7 +2,7 @@
 
 namespace StockportGovUK.NetStandard.Models.Models.Mail
 {
-    public class Mail
+    public class Mail 
     {
         public string Payload { get; set; }
 

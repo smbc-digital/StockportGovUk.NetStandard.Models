@@ -152,8 +152,7 @@ namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
         {
             get
             {
-                DateTime dt;
-                DateTime.TryParse(DatePaid, new CultureInfo("en-GB"), DateTimeStyles.None, out dt);
+                DateTime.TryParse(DatePaid, new CultureInfo("en-GB"), DateTimeStyles.None, out var dt);
                 return dt;
             }
         }

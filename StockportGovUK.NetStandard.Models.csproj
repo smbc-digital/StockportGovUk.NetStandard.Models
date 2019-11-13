@@ -15,4 +15,8 @@
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Civica\CouncilTax\" />
+  </ItemGroup>
+
 </Project>

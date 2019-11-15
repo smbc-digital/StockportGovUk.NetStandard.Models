@@ -37,6 +37,8 @@ namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
         public string CurrentYrFullYearCharge { get; set; }
         [XmlElement(ElementName = "PropertyStatus")]
         public string PropertyStatus { get; set; }
+        [XmlElement(ElementName = "ChargeDetails")]
+        public ChargeDetailsResponse ChargeDetails { get; set; }
     }
 
     [XmlRoot(ElementName = "PropertyList")]
@@ -61,5 +63,27 @@ namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
         public PropertyList PropertyList { get; set; }
         [XmlElement(ElementName = "StandardInfo")]
         public StandardInfo StandardInfo { get; set; }
+    }
+
+    [XmlRoot("ChargeDetails")]
+    public class ChargeDetailsResponse
+    {
+        public ChargeDetailsDatesResponse Dates { get; set; }
+
+        public decimal NetCharge { get; set; }
+
+        public string RowID { get; set; }
+    }
+
+    public class ChargeDetailsDatesResponse
+    {
+        [XmlAttribute]
+        public string Start { get; set; }
+
+        [XmlAttribute]
+        public string End { get; set; }
+
+        [XmlAttribute]
+        public ushort Days { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         public string Type { get; set; }
 
         [XmlElement("NextPayment")]
-        public NextPayment NextPayment { get; set; }
+        public CivicaNextPayment NextPayment { get; set; }
 
         [XmlElement("BenefitEntitlement")]
         public BenefitEntitlement BenefitEntitlement { get; set; }
@@ -46,7 +46,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
     }
 
     [XmlRoot("NextPayment")]
-    public class NextPayment
+    public class CivicaNextPayment
     {
         [XmlElement("Date")]
         public string PaymentDueDate { get; set; }
@@ -57,14 +57,16 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         [XmlElement("Payee")]
         public string Payee { get; set; }
 
-        [XmlElement("PaidUptoAmount")]
-        public string PaidUptoAmount { get; set; }
+        [XmlElement("PaidUpToAmount")]
+        public string PaidUpToAmount { get; set; }
 
         [XmlElement("PaymentSchedule")]
         public string Schedule { get; set; }
 
         [XmlElement("PaymentMethod")]
         public string Method { get; set; }
+
+        public string Status { get; set; }
     }
 
     [XmlRoot("BenefitEntitlement")]

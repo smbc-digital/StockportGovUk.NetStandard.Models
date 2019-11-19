@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
@@ -33,13 +34,23 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
     public class NextPayment
     {
-        public DateTime DueDate { get; set; }
+        public string DueDate { get; set; }
 
-        public decimal Amount { get; set; }
+        public DateTime DueDateTime
+        {
+            get
+            {
+                DateTime dt;
+                DateTime.TryParse(DueDate, new CultureInfo("en-GB"), DateTimeStyles.None, out dt);
+                return dt;
+            }
+        }
+
+        public string Amount { get; set; }
 
         public string Payee { get; set; }
 
-        public decimal PaidUpToAmount { get; set; }
+        public string PaidUpToAmount { get; set; }
 
         public string Schedule { get; set; }
 
@@ -50,9 +61,9 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
     public class CurrentEntitlement
     {
-        public decimal WeeklyHousingBenefitEntitlement { get; set; }
+        public string WeeklyHousingBenefitEntitlement { get; set; }
 
-        public decimal WeeklyCtaxBenefitEntitlement { get; set; }
+        public string WeeklyCtaxBenefitEntitlement { get; set; }
     }
 
     public enum BenefitsCombinationEnum
@@ -68,20 +79,20 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         public string AccountReference { get; set; }
 
-        public decimal TotalBill { get; set; }
+        public string TotalBill { get; set; }
 
-        public decimal TotalBenefits { get; set; }
+        public string TotalBenefits { get; set; }
 
-        public decimal BalanceOutstanding { get; set; }
+        public string BalanceOutstanding { get; set; }
     }
 
     public class BenefitsDocument
     {
         public string Name { get; set; }
 
-        public DateTime DateCreated { get; set; }
+        public string DateCreated { get; set; }
 
-        public bool Downloaded { get; set; }
+        public string Downloaded { get; set; }
 
         public string Id { get; set; }
 
@@ -92,19 +103,29 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
     public class Payment
     {
-        public DateTime DatePaid { get; set; }
+        public string DatePaid { get; set; }
+        
+        public DateTime DateTimePaid
+        {
+            get
+            {
+                DateTime dt;
+                DateTime.TryParse(DatePaid, new CultureInfo("en-GB"), DateTimeStyles.None, out dt);
+                return dt;
+            }
+        }
 
-        public decimal Amount { get; set; }
+        public string Amount { get; set; }
 
-        public DateTime PeriodStart { get; set; }
+        public string PeriodStart { get; set; }
 
-        public DateTime PeriodEnd { get; set; }
+        public string PeriodEnd { get; set; }
 
         public string Type { get; set; }
 
         public string Payee { get; set; }
 
-        public bool OnAct { get; set; }
+        public string OnAct { get; set; }
 
         public string CouncilTaxReference { get; set; }
     }

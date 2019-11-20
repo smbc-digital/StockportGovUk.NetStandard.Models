@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Xml;
 using System.Xml.Serialization;
 
-namespace civica_service.Helpers.SessionProvider.Models
+namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
 {
     [XmlRoot(ElementName = "TranList")]
     public class TransactionListModel

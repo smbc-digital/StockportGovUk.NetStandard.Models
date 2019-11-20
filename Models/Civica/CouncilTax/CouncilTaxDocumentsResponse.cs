@@ -27,6 +27,6 @@ namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
         public string DocumentType { get; set; }
 
         [XmlElement("Ref1")]
-        public string AccountReference { get; set; }
+        public string ClaimNumber { get; set; }
     }
 }

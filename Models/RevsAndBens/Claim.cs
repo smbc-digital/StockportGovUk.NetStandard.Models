@@ -98,7 +98,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         public string Type { get; set; }
 
-        public string AccountReference { get; set; }
+        public string ClaimNumber { get; set; }
     }
 
     public class Payment

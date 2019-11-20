@@ -20,6 +20,6 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         public string DocumentType { get; set; }
 
         [XmlElement("Ref1")]
-        public string AccountReference { get; set; }
+        public string ClaimNumber { get; set; }
     }
 }

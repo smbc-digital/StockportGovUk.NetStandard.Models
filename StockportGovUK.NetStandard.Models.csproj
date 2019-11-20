@@ -4,7 +4,7 @@
     <PackageId>StockportGovUK.NetStandard.Models</PackageId>
     <Title>A package that provides shared models for StockportGovUK applications</Title>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.4.1</VersionPrefix>
     <Authors>Colin Lees, Jon Chiles, Jon Hadley</Authors>
     <Company>Stockport Council</Company>
   </PropertyGroup>
@@ -13,6 +13,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.5" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Civica\CouncilTax\" />
   </ItemGroup>
 
 </Project>

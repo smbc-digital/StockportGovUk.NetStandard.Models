@@ -6,7 +6,7 @@ using System.Globalization;
 
 namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
 {
-   public class Benefits
+    public class Benefits
     {
         public string ClaimNumber { get; set; }
 

@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using StockportGovUK.NetStandard.Models.Models.RevsAndBens;
+using StockportGovUK.NetStandard.Models.RevsAndBens;
 
 namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
 {
     public class CouncilTaxDetailsModel
     {
+        public IEnumerable<CouncilTaxAccountDetails> Accounts { get; set; }
+
+        public IEnumerable<CouncilTaxDocument> Documents { get; set; }
+
         public string PaymentMethod { get; set; }
 
         public bool IsDirectDebitCustomer { get; set; }
@@ -38,6 +43,14 @@ namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
         public List<TransactionModel> TransactionHistory { get; set; }
 
         public bool HasBenefits { get; set; }
+
+        public bool HasSpar { get; set; }
+
+        public string TaxBand { get; set; }
+
+        public string Property { get; set; }
+
+        public string LatestBillId { get; set; }
     }
 
     public class InstallmentModel

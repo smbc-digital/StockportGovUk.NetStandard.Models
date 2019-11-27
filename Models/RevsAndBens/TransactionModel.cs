@@ -2,7 +2,20 @@
 
 namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
 {
-    public class TransactionModel
+    public interface ITransactionModel
+    {
+        DateTime Date { get; set; }
+
+        decimal Amount { get; set; }
+
+        string Method { get; set; }
+
+        string Description { get; set; }
+
+        string Type { get; set; }
+    }
+
+    public class TransactionModel : ITransactionModel
     {
         public DateTime Date { get; set; }
 

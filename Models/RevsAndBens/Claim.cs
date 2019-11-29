@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
@@ -56,7 +59,8 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         public string Method { get; set; }
 
-        public string Status { get; set; }
+        [JsonConverter(typeof(StringEnumConverter))]
+        public EPaymentStatus Status { get; set; }
     }
 
     public enum BenefitsCombinationEnum

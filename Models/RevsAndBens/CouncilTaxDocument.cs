@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
+namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     [XmlType(AnonymousType = true)]
     public class CouncilTaxDocument

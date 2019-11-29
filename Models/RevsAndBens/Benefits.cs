@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
+namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     public class Benefits
     {
@@ -72,13 +72,6 @@ namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
         Increased = 2
     }
 
-    public class CurrentEntitlement
-    {
-        public string WeeklyHousingBenefitEntitlement { get; set; }
-
-        public string WeeklyCtaxBenefitEntitlement { get; set; }
-    }
-
     public class HousingBenefitHistory
     {
         public List<HousingBenefitsPaymentDetail> PaymentHistory { get; set; }
@@ -138,7 +131,7 @@ namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
         public string OtherReference { get; set; }
     }
 
-    public abstract class PaymentDetail
+    public abstract class BenefitsPaymentDetail
     {
         public string DatePaid { get; set; }
 
@@ -158,12 +151,12 @@ namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
         }
     }
 
-    public class HousingBenefitsPaymentDetail : PaymentDetail
+    public class HousingBenefitsPaymentDetail : BenefitsPaymentDetail
     {
         public string Payee { get; set; }
     }
 
-    public class CtaxBenefitsPaymentDetail : PaymentDetail
+    public class CtaxBenefitsPaymentDetail : BenefitsPaymentDetail
     {
         public string OnAct { get; set; }
 

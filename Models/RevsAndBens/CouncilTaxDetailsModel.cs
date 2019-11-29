@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax;
+using StockportGovUK.NetStandard.Models.Civica.CouncilTax;
 using StockportGovUK.NetStandard.Models.RevsAndBens;
 
-namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
+namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     public class CouncilTaxDetailsModel
     {
+        public IEnumerable<CouncilTaxAccountDetails> Accounts { get; set; }
+        public IEnumerable<CouncilTaxDocument> Documents { get; set; }
         public string PaymentMethod { get; set; }
         public bool IsDirectDebitCustomer { get; set; }
         public decimal AmountOwing { get; set; }
@@ -27,7 +29,7 @@ namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
         public string TaxBand { get; set; }
         public string Property { get; set; }
         public string LatestBillId { get; set; }
-        public List<CouncilTaxDocument> Documents { get; set; }
+        public bool HasSpar { get; set; }
     }
 
     public class InstallmentModel

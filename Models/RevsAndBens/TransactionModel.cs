@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StockportGovUK.NetStandard.Models.Models.RevsAndBens
+namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     public interface ITransactionModel
     {

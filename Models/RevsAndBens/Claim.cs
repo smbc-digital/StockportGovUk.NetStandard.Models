@@ -25,14 +25,14 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         public string Address { get; set; }
 
-        public NextPayment NextPayment { get; set; }
+        public ClaimNextPayment NextPayment { get; set; }
 
         public CurrentEntitlement CurrentEntitlement { get; set; }
 
         public BenefitsCombinationEnum BenefitsCombination { get; set; }
     }
 
-    public class NextPayment
+    public class ClaimNextPayment
     {
         public string DueDate { get; set; }
 
@@ -57,13 +57,6 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         public string Method { get; set; }
 
         public string Status { get; set; }
-    }
-
-    public class CurrentEntitlement
-    {
-        public string WeeklyHousingBenefitEntitlement { get; set; }
-
-        public string WeeklyCtaxBenefitEntitlement { get; set; }
     }
 
     public enum BenefitsCombinationEnum

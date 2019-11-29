@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
+namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
 {
     [XmlRoot("HBSelectDoc")]
     public class ClaimsSummaryResponse

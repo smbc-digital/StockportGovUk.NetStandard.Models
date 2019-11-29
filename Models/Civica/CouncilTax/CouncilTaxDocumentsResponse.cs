@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
+namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
 {
     [XmlRoot("Documents")]
     public class CouncilTaxDocumentsResponse

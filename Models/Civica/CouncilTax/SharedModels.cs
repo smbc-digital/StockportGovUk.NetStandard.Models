@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace StockportGovUK.NetStandard.Models.Models.Civica.CouncilTax
+namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
 {
     [XmlRoot(ElementName = "PersonName")]
     public class PersonName

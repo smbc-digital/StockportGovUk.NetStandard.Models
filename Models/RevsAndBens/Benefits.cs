@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using StockportGovUK.NetStandard.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -52,7 +53,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         public int PaymentFrequencyInWeeks { get; set; }
 
         [JsonConverter(typeof(StringEnumConverter))]
-        public PaymentStatusEnum PaymentStatus { get; set; }
+        public EPaymentStatus PaymentStatus { get; set; }
 
         public DateTime NextPaymentDateActual
         {
@@ -63,13 +64,6 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
                 return dt;
             }
         }
-    }
-
-    public enum PaymentStatusEnum
-    {
-        Expected = 0,
-        Reduced = 1,
-        Increased = 2
     }
 
     public class HousingBenefitHistory

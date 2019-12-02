@@ -4,7 +4,7 @@
     <PackageId>StockportGovUK.NetStandard.Models</PackageId>
     <Title>A package that provides shared models for StockportGovUK applications</Title>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <VersionPrefix>0.5.2</VersionPrefix>
+    <VersionPrefix>0.6.1</VersionPrefix>
     <Authors>Colin Lees, Jon Chiles, Jon Hadley</Authors>
     <Company>Stockport Council</Company>
   </PropertyGroup>

@@ -23,8 +23,8 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
         public string LiabilityPeriodStart { get; set; }
         public string LiabilityPeriodEnd { get; set; }
         public List<InstallmentModel> UpcomingPayments { get; set; }
-        public List<ITransactionModel> PreviousPayments { get; set; }
-        public List<ITransactionModel> TransactionHistory { get; set; }
+        public List<TransactionModel> PreviousPayments { get; set; }
+        public List<TransactionModel> TransactionHistory { get; set; }
         public bool HasBenefits { get; set; }
         public string TaxBand { get; set; }
         public string Property { get; set; }

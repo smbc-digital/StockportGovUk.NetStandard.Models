@@ -12,7 +12,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         string Description { get; set; }
 
-        string Type { get; set; }
+        ETransactionType Type { get; set; }
     }
 
     public class TransactionModel : ITransactionModel
@@ -25,6 +25,12 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         public string Description { get; set; }
 
-        public string Type { get; set; }
+        public ETransactionType Type { get; set; }
+    }
+
+    public enum ETransactionType
+    {
+        Debit,
+        Credit
     }
 }

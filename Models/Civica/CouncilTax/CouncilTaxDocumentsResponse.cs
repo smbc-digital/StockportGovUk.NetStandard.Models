@@ -9,7 +9,7 @@ namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
         public CouncilTaxDocumentReference[] DocumentList { get; set; }
     }
 
-    [XmlType(AnonymousType = true)]
+    [XmlRoot("Document")]
     public class CouncilTaxDocumentReference
     {
         public string DocumentName { get; set; }

@@ -6,6 +6,6 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Response
     {
         public string ErrorSummary  { get; set; }
 
-        public string FieldErrors  { get; set; }
+        public dynamic FieldErrors  { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using StockportGovUK.NetStandard.Models.Enums;
 
-namespace StockportGovUK.NetStandard.Models.Models.Fostering
+namespace StockportGovUK.NetStandard.Models.Fostering
 {
     public class FosteringCase
     {

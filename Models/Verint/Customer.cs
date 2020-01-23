@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint
+namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Customer
     {
@@ -36,13 +36,19 @@ namespace StockportGovUK.NetStandard.Models.Models.Verint
                 string fullName = this.Surname;
 
                 if (!string.IsNullOrWhiteSpace(this.Forename))
+                {
                     fullName = (this.Forename + " " + fullName).TrimEnd();
+                }
 
                 if (!string.IsNullOrWhiteSpace(this.Initials))
+                {
                     fullName = (this.Initials + " " + fullName).TrimEnd();
+                }
 
                 if (!string.IsNullOrWhiteSpace(this.Title))
+                {    
                     fullName = (this.Title + " " + fullName).TrimEnd();
+                }
 
                 return (fullName == null) ? null : fullName.Trim();
             }

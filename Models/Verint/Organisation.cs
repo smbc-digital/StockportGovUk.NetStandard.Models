@@ -1,7 +1,17 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.Verint
+﻿namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Organisation
     {
+        public Organisation()
+        {
+
+        }
+        public Organisation(string strReference, string strDescription)
+        {
+            this.Reference = strReference;
+            this.Description = strDescription;
+        }
+
         public string Reference { get; set; }
 
         public string Description { get; set; }

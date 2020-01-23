@@ -1,11 +1,27 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
-using StockportGovUK.NetStandard.Models.Models.Verint.Eforms;
+using StockportGovUK.NetStandard.Models.Verint;
+using StockportGovUK.NetStandard.Models.Verint.Eforms;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint
+namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Case
     {
+
+        private AssociatedWithBehaviourEnum? _AssociatedWithBehaviour;
+        
+        public Case()
+        {
+            this.ID = Guid.NewGuid();
+            this.IntegrationFormFields = new List<CustomField>();
+            this.CaseFormFields = new List<CustomField>();
+            this.CustomAttributes = new List<CustomField>();
+            this.CaseReference = string.Empty;
+            this.RaisedByBehaviour = RaisedByBehaviourEnum.Individual;
+
+        }
+
         public Guid ID { get; set; }
 
         public bool AnonymousSubmission { get; set; }
@@ -22,7 +38,7 @@ namespace StockportGovUK.NetStandard.Models.Models.Verint
 
         public List<CustomField> CaseFormFields { get; set; }
 
-        public List<Note> Notes { get; set; }
+        public List<Note> Notes { get; set; } 
 
         public string FormName { get; set; }
 
@@ -93,5 +109,104 @@ namespace StockportGovUK.NetStandard.Models.Models.Verint
         public string PaymentRef { get; set; }
 
         public List<string> LinkCases { get; set; }
+
+        public RaisedByBehaviourEnum RaisedByBehaviour { get; set;}
+
+        public AssociatedWithBehaviourEnum AssociatedWithBehaviour { 
+            get 
+            {
+                if(_AssociatedWithBehaviour != null)
+                {
+                    return _AssociatedWithBehaviour.Value;
+                }
+
+                if (Street != null && Street.Reference != null)
+                {
+                    return AssociatedWithBehaviourEnum.Street;
+                }
+                
+                if (Property != null && Property.Reference != null)
+                {
+                    return AssociatedWithBehaviourEnum.Property;
+                }
+
+                if (Organisation != null && Organisation.Reference != null)
+                {
+                    return AssociatedWithBehaviourEnum.Organisation;
+                }
+                
+                if (Customer != null && Customer.CustomerReference != null)
+                {
+                    return AssociatedWithBehaviourEnum.Individual;
+                }
+
+                return AssociatedWithBehaviourEnum.Non;
+            }
+            set
+            {
+                _AssociatedWithBehaviour = value;
+            }
+        }
+
+        public CustomField SearchForIntegrationFormField(string fieldName)
+        {
+            CustomField result = IntegrationFormFields.Find(
+                                delegate (CustomField cf)
+                                {
+                                    return cf.Name == fieldName;
+                                });
+
+            if (result != null)
+            {
+                return result;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public CustomField SearchForCaseFormFields(string fieldName)
+        {
+            CustomField result = CaseFormFields.Find(
+                                delegate (CustomField cf)
+                                {
+                                    return cf.Name == fieldName;
+                                });
+
+            if (result != null)
+            {
+                return result;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public void SetCustomFieldValue(string key, string value)
+        {
+            var customField = SearchForCaseFormFields(key);
+            if (customField != null)
+            {
+                customField.Value = value;
+            }
+        }
+
+        public string CustomAttributeValue(string customAttributeName)
+        {
+            return this.CustomAttributes.Where(x => x.Name.Equals(customAttributeName)).Select(x => x.Value).SingleOrDefault();
+        }
+
+        public void SetCustomAttribute(string customAttributeName, string customAttributeValue)
+        {
+            var existingAttribute = this.CustomAttributes.Where(x => x.Name.Equals(customAttributeName)).SingleOrDefault();
+
+            if (existingAttribute != null)
+                this.CustomAttributes.Remove(existingAttribute);
+
+            this.CustomAttributes.Add(new CustomField(customAttributeName, customAttributeValue));
+        }
+
     }
 }

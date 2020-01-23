@@ -1,4 +1,4 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
+﻿namespace StockportGovUK.NetStandard.Models.ComplimentsComplaints
 {
     public class FeedbackDetails
     {

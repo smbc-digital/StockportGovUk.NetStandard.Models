@@ -1,4 +1,4 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.Verint.Lookup
+﻿namespace StockportGovUK.NetStandard.Models.Verint.Lookup
 {
     public class OrganisationSearchResult
     {

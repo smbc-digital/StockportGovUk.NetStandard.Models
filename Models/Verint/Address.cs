@@ -1,9 +1,19 @@
 ﻿using System.Text;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint
+namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Address
     {
+        public Address()
+        {
+        }
+
+        public Address(string strReference, string strDescription)
+        {
+            this.Reference = strReference;
+            this.Description = strDescription;
+        }
+
         public string Reference { get; set; }
 
         public string Description { get; set; }

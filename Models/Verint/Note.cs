@@ -1,9 +1,22 @@
 ﻿using System;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint
+namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Note
     {
+        public Note(long id)
+        {
+            this.ID = id;
+        }
+
+        public Note(long id, string text, DateTime created, string createdBy)
+        {
+            this.ID = id;
+            this.Text = text;
+            this.Created = created;
+            this.CreatedBy = createdBy;
+        }
+
         public long ID { get; private set; }
 
         public string Text { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint
+namespace StockportGovUK.NetStandard.Models.Verint
 {
     [XmlRoot(ElementName = "classification", Namespace = "http://www.kana.com/lagan/schemas/casemanagement")]
     public class EventClassification

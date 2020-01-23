@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Enums;
 
-namespace StockportGovUK.NetStandard.Models.Models.Mail
+namespace StockportGovUK.NetStandard.Models.Mail
 {
     public class Mail 
     {

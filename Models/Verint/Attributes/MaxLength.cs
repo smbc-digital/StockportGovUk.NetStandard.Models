@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint.Attributes
+namespace StockportGovUK.NetStandard.Models.Verint.Attributes
 {
     public class MaxLength : Attribute
     {

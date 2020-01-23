@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint.Update
+namespace StockportGovUK.NetStandard.Models.Verint.Update
 {
     public class IntegrationFormFieldsUpdateModel
     {

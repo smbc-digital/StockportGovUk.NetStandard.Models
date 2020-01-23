@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using StockportGovUK.NetStandard.Models.Models.Verint.Attributes;
+using StockportGovUK.NetStandard.Models.Verint.Attributes;
 
-namespace StockportGovUK.NetStandard.Models.Models.Verint.Eforms
+namespace StockportGovUK.NetStandard.Models.Verint.Eforms
 {
     public abstract class BaseEform : IBaseEform
     {

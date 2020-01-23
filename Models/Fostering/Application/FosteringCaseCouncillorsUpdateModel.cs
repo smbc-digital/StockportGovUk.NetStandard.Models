@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using StockportGovUK.NetStandard.Models.Attributes;
 
-namespace StockportGovUK.NetStandard.Models.Models.Fostering.Application
+namespace StockportGovUK.NetStandard.Models.Fostering.Application
 {
     public class FosteringCaseCouncillorsUpdateModel
     {

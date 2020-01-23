@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using StockportGovUK.NetStandard.Models.Models.Fostering;
+using StockportGovUK.NetStandard.Models.Fostering;
 
 namespace StockportGovUK.NetStandard.Models.Attributes
 {

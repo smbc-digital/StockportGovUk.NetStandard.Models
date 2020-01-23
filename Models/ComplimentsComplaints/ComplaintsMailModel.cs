@@ -1,6 +1,6 @@
-﻿using StockportGovUK.NetStandard.Models.Models.Mail;
+﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.Models.ComplimentsComplaints
+namespace StockportGovUK.NetStandard.Models.ComplimentsComplaints
 {
    public  class ComplaintsMailModel : BaseMailModel
    {

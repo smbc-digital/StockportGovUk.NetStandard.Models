@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace StockportGovUK.NetStandard.Models.Models.Mail
+namespace StockportGovUK.NetStandard.Models.Mail
 {
     public class BaseMailModel
     {

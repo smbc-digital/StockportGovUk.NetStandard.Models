@@ -1,4 +1,4 @@
-﻿namespace StockportGovUK.NetStandard.Models.Models.Verint
+﻿namespace StockportGovUK.NetStandard.Models.Verint
 {
     public enum DestinationSystem
     {

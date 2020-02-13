@@ -6,6 +6,9 @@ namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
     [XmlRoot("CtaxDetails")]
     public class CouncilTaxAccountResponse
     {
+        [XmlElement("PersonName")]
+        public PersonName PersonName { get; set; }
+
         [XmlElement("AccountDetails")]
         public AccountDetail AccountDetails { get; set; }
 

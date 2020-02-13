@@ -22,6 +22,8 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
     public class ClaimDetails
     {
+        public string PersonName { get; set; }
+
         public string Number { get; set; }
 
         public string Status { get; set; }

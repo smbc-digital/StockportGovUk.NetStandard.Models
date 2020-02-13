@@ -5,6 +5,9 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
     [XmlRoot("HBClaimDetails")]
     public class BenefitsClaim
     {
+        [XmlElement("PersonName")]
+        public PersonName PersonName { get; set; }
+
         [XmlElement("Error")]
         public string Error { get; set; }
 

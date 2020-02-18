@@ -45,13 +45,13 @@ namespace StockportGovUK.NetStandard.Models.Verint
             get
             {
                 bool isFullyResolved = this.Number != null &&
-                                       this.AddressLine1 != null &&
-                                       this.City != null &&
-                                       this.Postcode != null &&
-                                       this.Number != string.Empty &&
-                                       this.AddressLine1 != string.Empty &&
-                                       this.City != string.Empty &&
-                                       this.Postcode != string.Empty;
+                                        this.AddressLine1 != null &&
+                                        this.City != null &&
+                                        this.Postcode != null &&
+                                        this.Number != string.Empty &&
+                                        this.AddressLine1 != string.Empty &&
+                                        this.City != string.Empty &&
+                                        this.Postcode != string.Empty;
 
                 return isFullyResolved;
             }

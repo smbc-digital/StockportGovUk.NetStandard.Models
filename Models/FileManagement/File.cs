@@ -1,4 +1,4 @@
-namespace StockportGovUK.NetStandard.Models.Models.FileManagement
+namespace StockportGovUK.NetStandard.Models.FileManagement
 {
     public class File
     {

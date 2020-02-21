@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using StockportGovUK.NetStandard.Models.Models.FileManagement;
+using StockportGovUK.NetStandard.Models.FileManagement;
 
 namespace StockportGovUK.NetStandard.Models.Verint
 {

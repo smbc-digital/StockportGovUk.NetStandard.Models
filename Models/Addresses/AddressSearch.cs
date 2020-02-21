@@ -1,7 +1,7 @@
 ﻿using StockportGovUK.NetStandard.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace StockportGovUK.NetStandard.Models.Models.Addresses
+namespace StockportGovUK.NetStandard.Models.Addresses
 {
     public class AddressSearch
     {

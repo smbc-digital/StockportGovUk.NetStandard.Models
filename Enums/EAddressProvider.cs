@@ -4,6 +4,6 @@
     {
         Unknown,
         Fake,
-        Verint
+        CRM
     }
 }

@@ -4,7 +4,6 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     public class BenefitsClaimSummary
     {
-        [XmlAttribute("PersonName")]
         public PersonName PersonName { get; set; }
 
         [XmlAttribute("ClaimNumber")]

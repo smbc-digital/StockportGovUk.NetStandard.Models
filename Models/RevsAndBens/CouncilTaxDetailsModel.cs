@@ -8,6 +8,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     public class CouncilTaxDetailsModel
     {
+        public string PersonName { get; set; }
         public IEnumerable<CouncilTaxAccountDetails> Accounts { get; set; }
         public IEnumerable<CouncilTaxDocument> Documents { get; set; }
         public string PaymentMethod { get; set; }

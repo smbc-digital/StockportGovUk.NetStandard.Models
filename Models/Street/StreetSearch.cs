@@ -1,7 +1,7 @@
 ﻿using StockportGovUK.NetStandard.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace StockportGovUK.NetStandard.Models.Models.Street
+namespace StockportGovUK.NetStandard.Models.Street
 {
     public class StreetSearch
     {

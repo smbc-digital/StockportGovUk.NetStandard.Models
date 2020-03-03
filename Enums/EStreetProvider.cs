@@ -1,6 +1,6 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Enums
 {
-    public enum EAddressProvider
+    public enum EStreetProvider
     {
         Unknown,
         Fake,

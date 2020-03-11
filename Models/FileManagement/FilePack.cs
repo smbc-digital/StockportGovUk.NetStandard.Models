@@ -9,6 +9,6 @@ namespace StockportGovUK.NetStandard.Models.Models.FileManagement
     {
         public string Name { get; set; }
 
-        public List<File> Files { get; set; }
+        public object Files { get; set; }
     }
 }

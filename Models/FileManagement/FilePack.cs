@@ -9,6 +9,6 @@ namespace StockportGovUK.NetStandard.Models.Models.FileManagement
     {
         public string Name { get; set; }
 
-        public Dictionary<string, dynamic> Files { get; set; }
+        public IDictionary<string, dynamic> Files { get; set; }
     }
 }

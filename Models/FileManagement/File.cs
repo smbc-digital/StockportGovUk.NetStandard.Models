@@ -4,5 +4,6 @@ namespace StockportGovUK.NetStandard.Models.FileManagement
     {
         public string FileName { get; set; }
         public string Content { get; set; }
+        public string OriginalFileName { get; set; }
     }
 }

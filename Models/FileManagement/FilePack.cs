@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using StockportGovUK.NetStandard.Models.FileManagement;
+﻿using System.Collections.Generic;
 
-namespace StockportGovUK.NetStandard.Models.Models.FileManagement
+namespace StockportGovUK.NetStandard.Models.FileManagement
 {
     public class FilePack
     {

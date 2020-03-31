@@ -37,6 +37,8 @@
         AssistedBinCollectionIndividualConfirmation,
         AssistedBinCollectionReferrerConfirmation,
         TaxiDriverKnowledgeConfirmation,
-        ComplaintsSuccess
+        ComplaintsSuccess,
+        AccidentsAndIncidents,
+        AccidentsAndIncidentsNearMiss
     }
 }

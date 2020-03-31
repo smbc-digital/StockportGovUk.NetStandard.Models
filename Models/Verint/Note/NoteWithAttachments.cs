@@ -13,5 +13,6 @@ namespace StockportGovUK.NetStandard.Models.Verint
         public List<File> Attachments { get; set; }
         public string AttachmentsDescription { get; set; } = string.Empty;
         public int Interaction { get; set; } = 0;
+        public string NoteName { get; set; }
     }
 }

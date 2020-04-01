@@ -2,7 +2,7 @@
 {
     public enum EMailTemplate
     {
-        ChangeOfAddress,
+       ChangeOfAddress,
         BaseTemplate,
         NotifyElections,
         ChangeOfAddressLandlord,
@@ -38,6 +38,7 @@
         AssistedBinCollectionReferrerConfirmation,
         TaxiDriverKnowledgeConfirmation,
         ComplaintsSuccess,
+        DeferCouncilTaxPayment,
         AccidentsAndIncidents,
         AccidentsAndIncidentsNearMiss
     }

@@ -1,8 +1,8 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Enums
 {
-    public enum EMailTemplate
-    {
-       ChangeOfAddress,
+public enum EMailTemplate
+{
+        ChangeOfAddress,
         BaseTemplate,
         NotifyElections,
         ChangeOfAddressLandlord,
@@ -38,9 +38,9 @@
         AssistedBinCollectionReferrerConfirmation,
         TaxiDriverKnowledgeConfirmation,
         ComplaintsSuccess,
-        CoronavirusVolunteerRequest,
         DeferCouncilTaxPayment,
         AccidentsAndIncidents,
-        AccidentsAndIncidentsNearMiss
-    }
+        AccidentsAndIncidentsNearMiss,
+        CoronavirusVolunteerRequest
+}
 }

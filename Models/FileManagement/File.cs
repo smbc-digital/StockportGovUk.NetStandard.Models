@@ -1,8 +1,10 @@
-namespace StockportGovUK.NetStandard.Models.Models.FileManagement
+namespace StockportGovUK.NetStandard.Models.FileManagement
 {
     public class File
     {
-        public string FileName { get; set; }
+        public string TrustedOriginalFileName { get; set; }
         public string Content { get; set; }
+        public string UntrustedOriginalFileName { get; set; }
+        public string KeyName { get; set; }
     }
 }

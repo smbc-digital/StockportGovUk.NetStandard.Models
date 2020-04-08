@@ -37,6 +37,7 @@
         AssistedBinCollectionIndividualConfirmation,
         AssistedBinCollectionReferrerConfirmation,
         TaxiDriverKnowledgeConfirmation,
-        ComplaintsSuccess
+        ComplaintsSuccess,
+        CoronavirusVolunteerRequest
     }
 }

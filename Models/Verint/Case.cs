@@ -109,7 +109,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
 
         public List<string> LinkCases { get; set; }
 
-        public RaisedByBehaviourEnum RaisedByBehaviour { get; set;}
+        public RaisedByBehaviourEnum RaisedByBehaviour { get; set; }
 
         public AssociatedWithBehaviourEnum AssociatedWithBehaviour { 
             get 
@@ -118,6 +118,8 @@ namespace StockportGovUK.NetStandard.Models.Verint
                 {
                     return _AssociatedWithBehaviour.Value;
                 }
+
+                // TODO: If all else fails match to the RaisedBy Behaviour
 
                 if (Street != null && Street.Reference != null)
                 {

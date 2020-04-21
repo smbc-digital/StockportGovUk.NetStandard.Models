@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {
     [XmlRoot("RecYrTotals")]
-    public class RecievedYearTotal
+    public class ReceivedYearTotal
     {
         private string _totalCharge { get; set; }
         

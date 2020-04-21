@@ -95,7 +95,8 @@ namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
     [XmlRoot("IRInstalments")]
     public class PaymentScheduleResponse
     {
-        public List<Instalment> InstalmentList { get; set; }
+        [XmlElement("InstalmentList")]
+        public List<Installment> InstallmentList { get; set; }
 
         public string PaymentMethod { get; set; }
     }

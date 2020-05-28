@@ -41,6 +41,7 @@ public enum EMailTemplate
         DeferCouncilTaxPayment,
         AccidentsAndIncidents,
         AccidentsAndIncidentsNearMiss,
-        CoronavirusVolunteerRequest
+        CoronavirusVolunteerRequest,
+        ParkingEnforcementRequest
 }
 }

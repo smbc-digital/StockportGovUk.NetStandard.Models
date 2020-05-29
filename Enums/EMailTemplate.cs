@@ -42,6 +42,7 @@ public enum EMailTemplate
         AccidentsAndIncidents,
         AccidentsAndIncidentsNearMiss,
         CoronavirusVolunteerRequest,
-        ParkingEnforcementRequest
-}
+        ParkingEnforcementRequest,
+        ParkingDispensationRequest
+    }
 }

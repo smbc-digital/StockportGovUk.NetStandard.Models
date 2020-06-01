@@ -43,6 +43,7 @@ public enum EMailTemplate
         AccidentsAndIncidentsNearMiss,
         CoronavirusVolunteerRequest,
         ParkingEnforcementRequest,
+        ContactStartRequest,
         ParkingDispensationRequest
     }
 }

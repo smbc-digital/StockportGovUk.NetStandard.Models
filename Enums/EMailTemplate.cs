@@ -44,6 +44,7 @@ public enum EMailTemplate
         CoronavirusVolunteerRequest,
         ParkingEnforcementRequest,
         ContactStartRequest,
-        ParkingDispensationRequest
+        ParkingDispensationRequest,
+        LibraryVolunteeringEnquiry
     }
 }

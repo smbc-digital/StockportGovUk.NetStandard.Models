@@ -45,6 +45,7 @@ public enum EMailTemplate
         ParkingEnforcementRequest,
         ContactStartRequest,
         ParkingDispensationRequest,
-        LibraryVolunteeringEnquiry
+        LibraryVolunteeringEnquiry,
+        BridgesStructuresReport
     }
 }

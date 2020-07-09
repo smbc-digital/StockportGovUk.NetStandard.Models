@@ -1,8 +1,12 @@
-﻿namespace StockportGovUK.NetStandard.Models.AbandonedVehicle
+﻿using StockportGovUK.NetStandard.Models.Mail;
+
+namespace StockportGovUK.NetStandard.Models.AbandonedVehicle
 {
-    public class AbandonedVehicleMailModel
+    public class AbandonedVehicleMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public StockportGovUK.NetStandard.Models.Addresses.Address StreetInput { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }

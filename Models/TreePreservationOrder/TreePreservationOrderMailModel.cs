@@ -2,7 +2,7 @@
 
 namespace StockportGovUK.NetStandard.Models.Models.TreePreservationOrder
 {
-    class TreePreservationOrderMailModel : BaseMailModel
+    public class TreePreservationOrderMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public string StreetInput { get; set; }

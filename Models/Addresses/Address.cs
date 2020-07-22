@@ -20,7 +20,8 @@ namespace StockportGovUK.NetStandard.Models.Addresses
         {
             if (!string.IsNullOrEmpty(this.PlaceRef))
             {
-                return $"{this.SelectedAddress}({this.PlaceRef})";
+                return $"{this.SelectedAddress},({this.PlaceRef})";
+
             }
             else
             {

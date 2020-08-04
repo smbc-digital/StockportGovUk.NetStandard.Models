@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.AbandonedVehicle
+namespace StockportGovUK.NetStandard.Models.GrittingRequest
 {
     public class GrittingRequestMailModel : BaseMailModel
     {

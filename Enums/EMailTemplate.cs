@@ -48,6 +48,8 @@ public enum EMailTemplate
         LibraryVolunteeringEnquiry,
         BridgesStructuresReport,
         AbandonedVehicleReport,
-        TreePreservationOrderRequest
+        TreePreservationOrderRequest,
+        GrittingRequest,
+        RoadMarkingsRequest
     }
 }

@@ -50,6 +50,7 @@ public enum EMailTemplate
         AbandonedVehicleReport,
         TreePreservationOrderRequest,
         GrittingRequest,
-        RoadMarkingsRequest
+        RoadMarkingsRequest,
+        GraffitiRequest
     }
 }

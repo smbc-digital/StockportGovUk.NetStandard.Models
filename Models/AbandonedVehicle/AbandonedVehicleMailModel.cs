@@ -2,7 +2,7 @@
 
 namespace StockportGovUK.NetStandard.Models.AbandonedVehicle
 {
-    public class FlyTippingMailModel : BaseMailModel
+    public class AbandonedVehicleMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public string StreetInput { get; set; }

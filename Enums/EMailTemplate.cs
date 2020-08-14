@@ -51,7 +51,9 @@ public enum EMailTemplate
         TreePreservationOrderRequest,
         GrittingRequest,
         RoadMarkingsRequest,
+        FlyTipping,
         GraffitiRequest,
-        StreetReport
+        StreetReport,
+        CoronavirusReporting
     }
 }

@@ -52,6 +52,8 @@ public enum EMailTemplate
         GrittingRequest,
         RoadMarkingsRequest,
         FlyTipping,
+        GraffitiRequest,
+        StreetReport,
         CoronavirusReporting
     }
 }

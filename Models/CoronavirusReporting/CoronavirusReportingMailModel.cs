@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.GrittingRequest
+namespace StockportGovUK.NetStandard.Models.CoronavirusReporting
 {
     public class CoronavirusReportingMailModel : BaseMailModel
     {

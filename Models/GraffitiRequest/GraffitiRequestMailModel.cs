@@ -1,8 +1,8 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.AbandonedVehicle
+namespace StockportGovUK.NetStandard.Models.GraffitiRequest
 {
-    public class AbandonedVehicleMailModel : BaseMailModel
+    public class GraffitiRequestMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public string StreetInput { get; set; }

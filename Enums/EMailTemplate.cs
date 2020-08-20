@@ -54,6 +54,7 @@ public enum EMailTemplate
         FlyTipping,
         GraffitiRequest,
         StreetReport,
-        CoronavirusReporting
+        CoronavirusReporting,
+        FlyPosting
     }
 }

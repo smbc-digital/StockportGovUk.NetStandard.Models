@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.RoadMarkingsRequest
+namespace StockportGovUK.NetStandard.Models.FadedLinesRequest
 {
     public class FadedLinesRequestMailModel : BaseMailModel
     {

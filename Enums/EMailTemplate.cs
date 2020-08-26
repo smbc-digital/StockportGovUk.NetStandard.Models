@@ -57,6 +57,7 @@ public enum EMailTemplate
         CoronavirusReporting,
         ReportAFloodPublicSpaces,
         FlyPosting,
-        FadedLinesRequest
+        FadedLinesRequest,
+        ReportAFloodPrivateSpaces
     }
 }

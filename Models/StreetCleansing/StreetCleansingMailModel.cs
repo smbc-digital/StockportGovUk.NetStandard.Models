@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.FlyTipping
+namespace StockportGovUK.NetStandard.Models.StreetCleansing
 {
     public class StreetCleansingMailModel : BaseMailModel
     {

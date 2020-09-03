@@ -59,6 +59,7 @@ public enum EMailTemplate
         FlyPosting,
         FadedLinesRequest,
         ReportAFloodPrivateSpaces,
-        ReportAFloodHighWaterLevels
+        ReportAFloodHighWaterLevels,
+        StreetCleansing
     }
 }

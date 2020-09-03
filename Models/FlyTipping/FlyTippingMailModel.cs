@@ -2,7 +2,7 @@
 
 namespace StockportGovUK.NetStandard.Models.FlyTipping
 {
-    public class StreetCleansingMailModel : BaseMailModel
+    public class FlyTippingMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public string StreetInput { get; set; }

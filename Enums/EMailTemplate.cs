@@ -55,7 +55,6 @@ public enum EMailTemplate
         StreetReport,
         FlyTipping,
         CoronavirusReporting,
-        FlyPosting,
-        StreetCleansing
+        FlyPosting
     }
 }

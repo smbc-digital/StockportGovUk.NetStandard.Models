@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageId>StockportGovUK.NetStandard.Models</PackageId>
     <Title>A package that provides shared models for StockportGovUK applications</Title>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     <VersionPrefix>1.1.1</VersionPrefix>
     <Authors>Colin Lees, Jon Chiles, Jon Hadley</Authors>
     <Company>Stockport Council</Company>

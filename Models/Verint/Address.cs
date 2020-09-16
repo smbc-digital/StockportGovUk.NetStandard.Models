@@ -40,6 +40,10 @@ namespace StockportGovUK.NetStandard.Models.Verint
 
         public bool? FromCookie { get; set; }
 
+        public string Easting { get; set; }
+
+        public string Northing { get; set; }
+
         public bool IsFullyResolved
         {
             get

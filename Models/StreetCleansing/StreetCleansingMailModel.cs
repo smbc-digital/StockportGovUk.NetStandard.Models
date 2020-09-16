@@ -1,8 +1,8 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.FlyPosting
+namespace StockportGovUK.NetStandard.Models.StreetCleansing
 {
-    public class FlyPostingMailModel : BaseMailModel
+    public class StreetCleansingMailModel : BaseMailModel
     {
         public string Reference { get; set; }
         public string StreetInput { get; set; }

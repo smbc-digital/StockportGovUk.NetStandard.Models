@@ -60,6 +60,7 @@ public enum EMailTemplate
         FadedLinesRequest,
         ReportAFloodPrivateSpaces,
         ReportAFloodHighWaterLevels,
-        StreetCleansing
+        StreetCleansing,
+        AccessProtectionMarkings
     }
 }

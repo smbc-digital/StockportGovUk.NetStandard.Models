@@ -1,7 +1,7 @@
 ﻿namespace StockportGovUK.NetStandard.Models.Enums
 {
-public enum EMailTemplate
-{
+    public enum EMailTemplate
+    {
         ChangeOfAddress,
         BaseTemplate,
         NotifyElections,
@@ -61,6 +61,7 @@ public enum EMailTemplate
         ReportAFloodPrivateSpaces,
         ReportAFloodHighWaterLevels,
         StreetCleansing,
-        AccessProtectionMarkings
+        AccessProtectionMarkings,
+        CoronavirusIsolationPayment
     }
 }

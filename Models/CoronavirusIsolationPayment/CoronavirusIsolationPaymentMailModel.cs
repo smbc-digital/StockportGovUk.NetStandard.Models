@@ -1,6 +1,6 @@
 using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.Models.AccessProtectionMarkings
+namespace StockportGovUK.NetStandard.Models.Models.CoronavirusIsolationPaymentMailModel
 {
     public class CoronavirusIsolationPaymentMailModel : BaseMailModel
     {

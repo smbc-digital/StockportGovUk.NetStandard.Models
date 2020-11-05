@@ -63,6 +63,7 @@
         StreetCleansing,
         AccessProtectionMarkings,
         CoronavirusIsolationPayment,
-        StockportLocalFund
+        StockportLocalFund,
+        SpotsVenue
     }
 }

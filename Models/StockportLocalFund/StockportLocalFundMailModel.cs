@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using StockportGovUK.NetStandard.Models.Mail;
 
 namespace StockportGovUK.NetStandard.Models.Models.StockportLocalFund
 {
-    class StockportLocalFundMailModel
+    class StockportLocalFundMailModel : BaseMailModel
     {
         public string Reference { get; set; }
     }

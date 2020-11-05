@@ -62,6 +62,7 @@
         ReportAFloodHighWaterLevels,
         StreetCleansing,
         AccessProtectionMarkings,
-        CoronavirusIsolationPayment
+        CoronavirusIsolationPayment,
+        StockportLocalFund
     }
 }

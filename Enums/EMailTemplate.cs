@@ -45,7 +45,7 @@
         ParkingEnforcementRequest,
         ContactStartRequest,
         ParkingDispensationRequest,
-        LibraryVolunteeringEnquiry,
+        LibraryVolunteeringEnquiry,ss
         BridgesStructuresReport,
         AbandonedVehicleReport,
         TreePreservationOrderRequest,
@@ -64,6 +64,6 @@
         AccessProtectionMarkings,
         CoronavirusIsolationPayment,
         StockportLocalFund,
-        SporstsVenue
+        SportsVenue
     }
 }

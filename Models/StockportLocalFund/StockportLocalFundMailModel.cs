@@ -1,8 +1,8 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.Models.StockportLocalFund
+namespace StockportGovUK.NetStandard.Models.StockportLocalFund
 {
-    class StockportLocalFundMailModel : BaseMailModel
+    public class StockportLocalFundMailModel : BaseMailModel
     {
         public string Reference { get; set; }
     }

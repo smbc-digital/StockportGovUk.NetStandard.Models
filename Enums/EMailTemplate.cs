@@ -64,6 +64,6 @@
         AccessProtectionMarkings,
         CoronavirusIsolationPayment,
         StockportLocalFund,
-        SpotsVenue
+        SporstsVenue
     }
 }

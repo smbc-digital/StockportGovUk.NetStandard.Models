@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StockportGovUK.NetStandard.Models.Models.Booking.Request
+namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
     public class ConfirmationRequest
     {

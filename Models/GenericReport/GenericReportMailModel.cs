@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.Models.StreetReport
+namespace StockportGovUK.NetStandard.Models.Models.GenericReport
 {
     public class GenericReportMailModel : BaseMailModel
     {

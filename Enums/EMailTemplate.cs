@@ -64,6 +64,7 @@
         AccessProtectionMarkings,
         CoronavirusIsolationPayment,
         StockportLocalFund,
-        SportsVenue
+        SportsVenue,
+        GenericReport
     }
 }

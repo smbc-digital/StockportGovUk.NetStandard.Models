@@ -8,6 +8,6 @@ namespace StockportGovUK.NetStandard.Models.Models.GenericReport
         public bool ShowRefNumber { get; set; } = false;
         public string FormText { get; set; }
         public bool HasNext { get; set; } = false;
-        public string HappensNextContent { get; set; }
+        public string[] HappensNextContent { get; set; }
     }
 }

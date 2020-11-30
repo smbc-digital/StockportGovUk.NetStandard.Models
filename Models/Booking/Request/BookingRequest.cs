@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using StockportGovUK.NetStandard.Models.Addresses;
 
 namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
@@ -23,9 +24,11 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
     public class Customer
     {
         [Required]
-        public string Name { get; set; }
+        public string Firstname { get; set; }
+        [Required]
+        public string Lastname { get; set; }
 
-        public string Location { get; set; }
+        public Address Address { get; set; }
 
         [Required]
         public string Email { get; set; }

@@ -65,6 +65,7 @@
         CoronavirusIsolationPayment,
         StockportLocalFund,
         SportsVenue,
-        GenericReport
+        GenericReport,
+        AdvisoryDisabledParkingBay
     }
 }

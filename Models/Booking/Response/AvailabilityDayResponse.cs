@@ -13,6 +13,7 @@ namespace StockportGovUK.NetStandard.Models.Booking.Response
             AppointmentTimes.First().Duration.Hours >=6 &&
             AppointmentTimes.First().StartTime.Hours < 12 && 
             AppointmentTimes.First().EndTime.Hours > 12;
+        public string Location { get; set; }
     }
 
     public class AppointmentTime

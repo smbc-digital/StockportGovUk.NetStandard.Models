@@ -28,5 +28,16 @@ namespace StockportGovUK.NetStandard.Models.Addresses
                 return $"{this.AddressLine1}, {this.AddressLine2}, {this.Town}, {this.Postcode}";
             }
         }
+
+        public string ToStringWithoutPlaceRef()
+        {
+            if (IsAutomaticallyFound)
+                return $"{SelectedAddress}";
+
+            if (string.IsNullOrEmpty(AddressLine2))
+                return $"{AddressLine1}, {Town}, {Postcode}";
+
+            return $"{AddressLine1}, {AddressLine2}, {Town}, {Postcode}";
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace StockportGovUK.NetStandard.Models.Addresses
         {
             if (IsAutomaticallyFound)
             {
-                return $"{SelectedAddress})";
+                return $"{SelectedAddress}";
 
             }
 

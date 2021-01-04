@@ -32,10 +32,7 @@ namespace StockportGovUK.NetStandard.Models.Addresses
         public string ToStringWithoutPlaceRef()
         {
             if (IsAutomaticallyFound)
-            {
-                return $"{SelectedAddress})";
-
-            }
+                return $"{SelectedAddress}";
 
             if (string.IsNullOrEmpty(AddressLine2))
                 return $"{AddressLine1}, {Town}, {Postcode}";

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using StockportGovUK.NetStandard.Models.Addresses;
 
 namespace StockportGovUK.NetStandard.Models.Booking.Request
 {

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using StockportGovUK.NetStandard.Models.Mail;
 
 namespace StockportGovUK.NetStandard.Models.Models.BookSiteInspection {
-    public class BookSiteInspectionMailModel {
+    public class BookSiteInspectionMailModel : BaseMailModel {
         public string Reference { get; set; }
         public string Type { get; set; }
         public string Date { get; set; }

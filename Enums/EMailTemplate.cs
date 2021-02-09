@@ -68,6 +68,7 @@
         GenericReport,
         AdvisoryDisabledParkingBay,
         BookSiteInspection,
-        GenericHtmlReport
+        GenericHtmlReport,
+        BaseHtmlTemplate
     }
 }

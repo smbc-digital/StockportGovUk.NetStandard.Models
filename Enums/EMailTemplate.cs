@@ -66,6 +66,9 @@
         StockportLocalFund,
         SportsVenue,
         GenericReport,
-        AdvisoryDisabledParkingBay
+        AdvisoryDisabledParkingBay,
+        BookSiteInspection,
+        GenericHtmlReport,
+        BaseHtmlTemplate
     }
 }

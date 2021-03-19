@@ -4,7 +4,7 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
 {
     public class PropertyWasteData
     {
-        public string Uprn { get; set; }
+        public long Uprn { get; set; }
         public string AddressLabel { get; set; }
         public BinRounds Rounds { get; set; } = new BinRounds();
         public bool UnsuitableForWheeledBins { get; set; }

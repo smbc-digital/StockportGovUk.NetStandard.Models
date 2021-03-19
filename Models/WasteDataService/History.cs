@@ -7,6 +7,6 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService
         public string RoundType { get; set; }
         public DateTime When { get; set; }
         public string What { get; set; }
-        public bool CrewReport { get; set; } 
+        public bool CrewReport { get; set; }
     }
 }

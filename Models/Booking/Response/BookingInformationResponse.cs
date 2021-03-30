@@ -6,8 +6,8 @@ namespace StockportGovUK.NetStandard.Models.Booking.Response
     {
         public Guid Id { get; set; }
         public string AppointmentName { get; set; }
-        public bool CanCancelCustomer { get; set; }
-        public bool CanCancelAdmin { get; set; }
+        public bool CanCustomerCancel { get; set; }
+        public bool CanAdminCancel { get; set; }
         public DateTime Date { get; set; }
         public TimeSpan StartTime { get; set; }
         public TimeSpan EndTime { get; set; }

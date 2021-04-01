@@ -16,5 +16,7 @@ namespace StockportGovUK.NetStandard.Models.Booking.Response
             StartTime.Hours < 12 && 
             EndTime.Hours > 12;
         public string Location { get; set; }
+
+        public bool IsCancelled { get; set; }
     }
 }

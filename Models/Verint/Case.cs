@@ -18,6 +18,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
             this.CustomAttributes = new List<CustomField>();
             this.CaseReference = string.Empty;
             this.RaisedByBehaviour = RaisedByBehaviourEnum.Individual;
+            this.NotesWithAttachments = new List<NoteWithAttachments>();
 
         }
 
@@ -38,6 +39,10 @@ namespace StockportGovUK.NetStandard.Models.Verint
         public List<CustomField> CaseFormFields { get; set; }
 
         public List<Note> Notes { get; set; } 
+
+        public List<NoteWithAttachments> NotesWithAttachments { get; set; } 
+
+        public bool UploadNotesWithAttachmentsAfterCaseCreation { get; set; }
 
         public string FormName { get; set; }
 

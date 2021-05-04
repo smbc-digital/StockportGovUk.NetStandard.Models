@@ -10,5 +10,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
         public int Interaction { get; set; } = 0;
 
         public string NoteName { get; set; }
+
+        public string NoteText { get; set; } = string.Empty;
     }
 }

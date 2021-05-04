@@ -2,7 +2,7 @@ using System;
 
 namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
-    public class AddReferenceReqest
+    public class AddReferenceRequest
     {
         public Guid BookingId{ get; set; }
         

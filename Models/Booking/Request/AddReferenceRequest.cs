@@ -8,6 +8,6 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
         
         public string Description{ get; set; }
 
-        public string Referencee{ get; set; }
+        public string Reference{ get; set; }
     }
 }

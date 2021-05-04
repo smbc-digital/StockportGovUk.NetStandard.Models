@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <PackageId>StockportGovUK.NetStandard.Models</PackageId>
     <Title>A package that provides shared models for StockportGovUK applications</Title>
@@ -13,5 +12,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
-  
 </Project>

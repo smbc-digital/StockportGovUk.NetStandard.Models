@@ -13,5 +13,6 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
         public int Contains { get; set; }
         public ContainedBy ContainedBy { get; set; }
         public List<History> History { get; set; }
+        public string PropertyCentralAssetId { get; set; }
     }
 }

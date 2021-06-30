@@ -2,9 +2,8 @@
 
 namespace StockportGovUK.NetStandard.Models.Models.Uniform
 {
-    class NoiseNuisanceServiceRequest
+    public class NoiseNuisanceServiceRequest
     {
-
         public string NoiseNuisanceTypeCode { get; set; }
         public string NoiseNuisanceType { get; set; }
         public string Description { get; set; }

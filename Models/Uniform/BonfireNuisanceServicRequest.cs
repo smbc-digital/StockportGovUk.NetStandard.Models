@@ -12,6 +12,3 @@ namespace StockportGovUK.NetStandard.Models.Models.Uniform
 
     }
 }
-
-}
-}

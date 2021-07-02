@@ -2,7 +2,7 @@
 
 namespace StockportGovUK.NetStandard.Models.Models.Uniform
 {
-    class BonfireNuisanceServiceRequest
+    public class BonfireNuisanceServiceRequest
     {
         public string BonfireNuisanceCode { get; set; }
         public string Description { get; set; }
@@ -10,9 +10,5 @@ namespace StockportGovUK.NetStandard.Models.Models.Uniform
         public string CrmReference { get; set; }
         public Address Property { get; set; }
         public Customer Customer { get; set; }
-
     }
-}
-
-}
 }

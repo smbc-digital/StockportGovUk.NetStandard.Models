@@ -1,5 +1,5 @@
-﻿using StockportGovUK.NetStandard.Models.Mail;
-using System;
+﻿using System;
+using StockportGovUK.NetStandard.Models.Mail;
 
 namespace StockportGovUK.NetStandard.Models.Models.GenericReport
 {
@@ -10,7 +10,7 @@ namespace StockportGovUK.NetStandard.Models.Models.GenericReport
         public bool ShowRefNumber { get; set; } = false;
         public string FormText { get; set; }
         public string[] HappensNextContent { get; set; }
-        public bool HasNext => String.IsNullOrEmpty(HappensNextContent.ToString()) ? false : true;
+        public bool HasNext => HappensNextContent.Length == 0 ? false : true;
         public string LeadingParagraph { get; set; }
         public bool HasLeadingParagraph => String.IsNullOrEmpty(LeadingParagraph) ? false : true;
     }

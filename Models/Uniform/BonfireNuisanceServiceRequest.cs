@@ -1,6 +1,6 @@
 ﻿using StockportGovUK.NetStandard.Models.Verint;
 
-namespace StockportGovUK.NetStandard.Models.Models.Uniform
+namespace StockportGovUK.NetStandard.Models.Uniform
 {
     public class BonfireNuisanceServiceRequest
     {

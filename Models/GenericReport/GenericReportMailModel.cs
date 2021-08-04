@@ -11,7 +11,7 @@ namespace StockportGovUK.NetStandard.Models.Models.GenericReport
         public string[] FormText { get; set; }
         public bool HasFormText => FormText?.Length > 0 ? true : false;
         public string[] HappensNextContent { get; set; }
-        public bool HasNext => HappensNextContent.Length == 0 ? false : true;
+        public bool HasNext => HappensNextContent?.Length == 0 ? false : true;
         public string LeadingParagraph { get; set; }
         public bool HasLeadingParagraph => String.IsNullOrEmpty(LeadingParagraph) ? false : true;
     }

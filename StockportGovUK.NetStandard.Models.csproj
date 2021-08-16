@@ -3,8 +3,8 @@
     <PackageId>StockportGovUK.NetStandard.Models</PackageId>
     <Title>A package that provides shared models for StockportGovUK applications</Title>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-    <VersionPrefix>3.8.0</VersionPrefix>
-    <Authors>Colin Lees, Jon Chiles, Jon Hadley, Simon Estill</Authors>
+    <VersionPrefix>3.8.1</VersionPrefix>
+    <Authors>Colin Lees, Jon Chiles, Jon Hadley</Authors>
     <Company>Stockport Council</Company>
   </PropertyGroup>
   <ItemGroup>

@@ -6,6 +6,11 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
     public class AvailabilityRequest
     {
+        public AvailabilityRequest()
+        {
+            NumberOfConsecutiveAppointmentsRequired = 1;
+        }
+
         [Required]
         public Guid AppointmentId { get; set; }
 
@@ -15,6 +20,10 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
         [Required]
         public DateTime EndDate { get; set; }
 
+        public int NumberOfConsecutiveAppointmentsRequired {get; set; }
+
         public List<BookingResource> OptionalResources { get; set; }
+
+
     }
 }

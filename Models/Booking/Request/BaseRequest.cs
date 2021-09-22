@@ -10,7 +10,7 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
         {
             NumberOfConsecutiveAppointmentsRequired = 1;
         }
-        
+
         [Required]
         public Guid AppointmentId { get; set; }
 

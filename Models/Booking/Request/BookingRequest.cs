@@ -1,21 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
-    public class BookingRequest
+    public class BookingRequest : BaseRequest
     {
-        [Required]
-        public Guid AppointmentId { get; set; }
+        public BookingRequest() : base()
+        {
+        }
 
         [Required]
         public DateTime StartDateTime { get; set; }
 
         [Required]
         public Customer Customer { get; set; }
-
-        public List<BookingResource> OptionalResources { get; set; }
 
         public string AdditionalInformation { get; set; }
     }
@@ -32,14 +30,5 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
         public string Email { get; set; }
 
         public string PhoneNumber { get; set; }
-    }
-
-    public class BookingResource
-    {
-        [Required]
-        public Guid ResourceId { get; set; }
-
-        [Required]
-        public int Quantity { get; set; }
     }
 }

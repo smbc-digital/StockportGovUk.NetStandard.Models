@@ -69,6 +69,7 @@
         AdvisoryDisabledParkingBay,
         BookSiteInspection,
         GenericHtmlReport,
-        BaseHtmlTemplate
+        BaseHtmlTemplate,
+        StockportCanFund
     }
 }

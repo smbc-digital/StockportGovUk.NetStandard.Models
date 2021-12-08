@@ -19,7 +19,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
             this.Value = fieldValue;
             this.IsActive = active;
         }
-        
+
         public string Name { get; set; }
 
         public string Label { get; set; }

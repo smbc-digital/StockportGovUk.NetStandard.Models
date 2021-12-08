@@ -3,7 +3,7 @@ using StockportGovUK.NetStandard.Models.Addresses;
 namespace StockportGovUK.NetStandard.Models.ContactDetails
 {
     public class ContactDetails
-    {        
+    {
         public Address Address { get; set; }
 
         public string FirstName { get; set; }

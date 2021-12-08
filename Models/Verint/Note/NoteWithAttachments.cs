@@ -4,7 +4,7 @@ using StockportGovUK.NetStandard.Models.FileManagement;
 
 namespace StockportGovUK.NetStandard.Models.Verint
 {
-    public class NoteWithAttachments: NoteRequest
+    public class NoteWithAttachments : NoteRequest
     {
         [Required]
         public List<File> Attachments { get; set; }

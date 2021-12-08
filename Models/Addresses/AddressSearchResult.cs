@@ -7,7 +7,7 @@ namespace StockportGovUK.NetStandard.Models.Addresses
         {
             get
             {
-                if(string.IsNullOrEmpty(_name))
+                if (string.IsNullOrEmpty(_name))
                 {
                     return $"{AddressLine1}, {AddressLine2}, {AddressLine3}, {Postcode}";
                 }

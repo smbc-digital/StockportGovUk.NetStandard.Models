@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using StockportGovUK.NetStandard.Models.Verint.Eforms;
 
 namespace StockportGovUK.NetStandard.Models.Verint
@@ -9,7 +9,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
     {
 
         private AssociatedWithBehaviourEnum? _AssociatedWithBehaviour;
-        
+
         public Case()
         {
             this.ID = Guid.NewGuid();
@@ -38,9 +38,9 @@ namespace StockportGovUK.NetStandard.Models.Verint
 
         public List<CustomField> CaseFormFields { get; set; }
 
-        public List<Note> Notes { get; set; } 
+        public List<Note> Notes { get; set; }
 
-        public List<NoteWithAttachments> NotesWithAttachments { get; set; } 
+        public List<NoteWithAttachments> NotesWithAttachments { get; set; }
 
         public bool UploadNotesWithAttachmentsAfterCaseCreation { get; set; }
 
@@ -116,10 +116,11 @@ namespace StockportGovUK.NetStandard.Models.Verint
 
         public RaisedByBehaviourEnum RaisedByBehaviour { get; set; }
 
-        public AssociatedWithBehaviourEnum AssociatedWithBehaviour { 
-            get 
+        public AssociatedWithBehaviourEnum AssociatedWithBehaviour
+        {
+            get
             {
-                if(_AssociatedWithBehaviour != null)
+                if (_AssociatedWithBehaviour != null)
                 {
                     return _AssociatedWithBehaviour.Value;
                 }
@@ -130,7 +131,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
                 {
                     return AssociatedWithBehaviourEnum.Street;
                 }
-                
+
                 if (Property != null && Property.Reference != null)
                 {
                     return AssociatedWithBehaviourEnum.Property;
@@ -140,7 +141,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
                 {
                     return AssociatedWithBehaviourEnum.Organisation;
                 }
-                
+
                 if (Customer != null && Customer.CustomerReference != null)
                 {
                     return AssociatedWithBehaviourEnum.Individual;

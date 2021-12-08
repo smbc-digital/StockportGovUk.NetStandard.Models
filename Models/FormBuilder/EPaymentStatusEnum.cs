@@ -6,5 +6,5 @@ namespace StockportGovUK.NetStandard.Models.FormBuilder
         Failure = 1,
         Cancelled = 2,
         Declined = 3
-    }    
+    }
 }

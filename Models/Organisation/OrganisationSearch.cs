@@ -1,5 +1,5 @@
-﻿using StockportGovUK.NetStandard.Models.Enums;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.Organisation
 {

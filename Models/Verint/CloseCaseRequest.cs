@@ -5,7 +5,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
         public string CaseReference { get; set; }
 
         public string ReasonTitle { get; set; }
-        
+
         public string Description { get; set; }
     }
 }

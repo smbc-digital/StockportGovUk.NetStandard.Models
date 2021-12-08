@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StockportGovUK.NetStandard.Models.Verint.Eforms
+﻿namespace StockportGovUK.NetStandard.Models.Verint.Eforms
 {
     public interface IBaseEform
     {

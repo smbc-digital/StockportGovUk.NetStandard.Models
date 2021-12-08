@@ -33,18 +33,18 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Notifications
 
         public static NotificationMessage DeserializeFromXml(string message)
         {
-            
+
             XmlSerializer serializer = new XmlSerializer(typeof(NotificationMessage));
             NotificationMessage notification;
             using (TextReader reader = new StringReader(message))
             {
-                notification = (NotificationMessage) serializer.Deserialize(reader);
+                notification = (NotificationMessage)serializer.Deserialize(reader);
             }
 
             return notification;
         }
     }
 
-    
+
 
 }

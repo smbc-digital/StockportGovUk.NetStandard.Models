@@ -10,8 +10,8 @@ namespace StockportGovUK.NetStandard.Models.Booking.Response
         public List<AppointmentTime> AppointmentTimes { get; set; } = new List<AppointmentTime>();
         public bool HasAvailableAppointment => AppointmentTimes.Any();
         public bool IsFullDayAppointment => AppointmentTimes.Count == 1 &&
-            AppointmentTimes.First().Duration.Hours >=6 &&
-            AppointmentTimes.First().StartTime.Hours < 12 && 
+            AppointmentTimes.First().Duration.Hours >= 6 &&
+            AppointmentTimes.First().StartTime.Hours < 12 &&
             AppointmentTimes.First().EndTime.Hours > 12;
     }
 

@@ -7,7 +7,7 @@ namespace StockportGovUK.NetStandard.Models.Attributes
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            var addressModel = (Address) value;
+            var addressModel = (Address)value;
 
             if (!string.IsNullOrEmpty(addressModel.SelectedAddress) && !string.IsNullOrEmpty(addressModel.Postcode) &&
                 !string.IsNullOrEmpty(addressModel.PlaceRef))

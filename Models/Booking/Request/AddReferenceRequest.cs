@@ -4,10 +4,18 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
     public class AddReferenceRequest
     {
-        public Guid BookingId{ get; set; }
-        
-        public string Description{ get; set; }
+        public AddReferenceRequest() { }
 
-        public string Reference{ get; set; }
+        public AddReferenceRequest(Guid bookingId, string reference)
+          => (BookingId, Reference) = (bookingId, reference);
+
+        public AddReferenceRequest(Guid bookingId, string reference, string description)
+          => (BookingId, Reference, Description) = (bookingId, reference, description);
+
+        public Guid BookingId { get; set; }
+
+        public string Reference { get; set; }
+
+        public string Description { get; set; }
     }
 }

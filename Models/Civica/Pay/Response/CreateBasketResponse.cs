@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace StockportGovUK.NetStandard.Models.Civica.Pay.Response
+﻿namespace StockportGovUK.NetStandard.Models.Civica.Pay.Response
 {
     public class CreateBasketResponse
     {

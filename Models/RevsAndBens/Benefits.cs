@@ -1,9 +1,9 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using StockportGovUK.NetStandard.Models.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using StockportGovUK.NetStandard.Models.Enums;
 
 namespace StockportGovUK.NetStandard.Models.RevsAndBens
 {

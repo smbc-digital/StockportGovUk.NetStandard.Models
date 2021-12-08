@@ -1,6 +1,6 @@
-﻿using StockportGovUK.NetStandard.Models.Verint;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using StockportGovUK.NetStandard.Models.Verint;
 
 namespace StockportGovUK.NetStandard.Models.Models.Verint.VerintOnlineForm
 {

@@ -23,11 +23,11 @@ namespace StockportGovUK.NetStandard.Models.Fostering
         public string WithPartner { get; set; }
 
         public string PrimaryLanguage { get; set; }
-       
+
         public string OtherLanguages { get; set; }
 
         public bool? MarriedOrInACivilPartnership { get; set; }
-                
+
         public DateTime? DateOfMarriage { get; set; }
 
         public DateTime? DateMovedInTogether { get; set; }
@@ -108,7 +108,7 @@ namespace StockportGovUK.NetStandard.Models.Fostering
 
     public class FosteringCaseStatuses
     {
-        public ETaskStatus TellUsAboutYourselfStatus { get; set; } 
+        public ETaskStatus TellUsAboutYourselfStatus { get; set; }
 
         public ETaskStatus YourEmploymentDetailsStatus { get; set; }
 
@@ -189,7 +189,7 @@ namespace StockportGovUK.NetStandard.Models.Fostering
         public string Postcode { get; set; }
     }
 
-    public class Address 
+    public class Address
     {
         public string SelectedAddress { get; set; }
 

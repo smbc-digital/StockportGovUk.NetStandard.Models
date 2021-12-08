@@ -1,5 +1,5 @@
-using StockportGovUK.NetStandard.Models.ContactDetails;
 using StockportGovUK.NetStandard.Models.Addresses;
+using StockportGovUK.NetStandard.Models.ContactDetails;
 
 namespace StockportGovUk.NetStandard.Models.ParkingEnforcement
 {

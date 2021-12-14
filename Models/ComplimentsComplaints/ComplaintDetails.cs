@@ -9,10 +9,10 @@ namespace StockportGovUK.NetStandard.Models.ComplimentsComplaints
         public string ComplainAbout { get; set; }
 
         public string CouncilDepartment { get; set; }
-        
+
         public string CouncilDepartmentSub { get; set; }
 
-        public string OtherService { get; set; } 
+        public string OtherService { get; set; }
 
         public string ComplainAboutService { get; set; }
 

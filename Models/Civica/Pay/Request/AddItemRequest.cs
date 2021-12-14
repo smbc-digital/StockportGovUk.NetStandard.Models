@@ -3,10 +3,10 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Request
     public class AddItemRequest
     {
         public string CallingAppIdentifier { get; set; }
-        
+
         public string BasketReference { get; set; }
 
-        public string BasketToken { get; set; } 
+        public string BasketToken { get; set; }
 
         public PaymentDetail PaymentDetails { get; set; }
 

@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace StockportGovUK.NetStandard.Models.Verint.Update

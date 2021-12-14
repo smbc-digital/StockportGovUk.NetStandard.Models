@@ -5,9 +5,10 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
     public class BookingRequest : BaseRequest
     {
-        public BookingRequest() : base()
-        {
-        }
+        public BookingRequest() : base() { }
+
+        public BookingRequest(Customer customer, DateTime startDateTime, Guid appointmentId)
+          : base(appointmentId) => (Customer, StartDateTime) = (customer, startDateTime);
 
         [Required]
         public DateTime StartDateTime { get; set; }
@@ -20,6 +21,12 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
 
     public class Customer
     {
+        public Customer() { }
+        public Customer(string firstName, string lastName) =>
+            (Firstname, Lastname) = (firstName, lastName);
+        public Customer(string firstName, string lastName, string address) =>
+            (Firstname, Lastname, Address) = (firstName, lastName, address);
+
         [Required]
         public string Firstname { get; set; }
         [Required]

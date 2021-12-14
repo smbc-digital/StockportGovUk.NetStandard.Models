@@ -10,7 +10,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
     public class Claim
     {
         public ClaimDetails Details { get; set; }
-        
+
         public List<BenefitsDocument> Documents { get; set; }
 
         public List<Payment> HousingBenefitPaymentHistory { get; set; }
@@ -103,7 +103,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
     public class Payment
     {
         public string DatePaid { get; set; }
-        
+
         public DateTime DateTimePaid
         {
             get

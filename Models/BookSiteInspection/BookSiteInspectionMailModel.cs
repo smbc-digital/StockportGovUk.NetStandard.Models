@@ -1,7 +1,9 @@
 ﻿using StockportGovUK.NetStandard.Models.Mail;
 
-namespace StockportGovUK.NetStandard.Models.Models.BookSiteInspection {
-    public class BookSiteInspectionMailModel : BaseMailModel {
+namespace StockportGovUK.NetStandard.Models.Models.BookSiteInspection
+{
+    public class BookSiteInspectionMailModel : BaseMailModel
+    {
         public string Reference { get; set; }
         public string Type { get; set; }
         public string Date { get; set; }

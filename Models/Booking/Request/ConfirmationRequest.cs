@@ -6,6 +6,11 @@ namespace StockportGovUK.NetStandard.Models.Booking.Request
 {
     public class ConfirmationRequest
     {
+        public ConfirmationRequest() { }
+
+        public ConfirmationRequest(Guid bookingId)
+          => BookingId = bookingId;
+
         [Required]
         public Guid BookingId { get; set; }
 

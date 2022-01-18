@@ -5,7 +5,7 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Request
         public string BasketReference { get; set; }
 
         public string BasketToken { get; set; }
-        
+
         public string ToQueryString()
         {
             return $"?basketReference={BasketReference}&basketToken={BasketToken}";

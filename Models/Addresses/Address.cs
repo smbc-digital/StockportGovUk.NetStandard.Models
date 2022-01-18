@@ -1,7 +1,7 @@
 namespace StockportGovUK.NetStandard.Models.Addresses
 {
     public class Address
-    {        
+    {
         public string SelectedAddress { get; set; }
 
         public string AddressLine1 { get; set; }

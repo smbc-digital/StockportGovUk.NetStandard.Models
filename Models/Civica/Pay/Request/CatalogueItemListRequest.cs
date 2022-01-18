@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace StockportGovUK.NetStandard.Models.Civica.Pay.Request
 {
     public class CatalogueItemListRequest
@@ -16,21 +14,21 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Request
             CatalogueItemReference = string.Empty;
         }
 
-        public string LanguageName { get; set ;}
-        
-        public int CategoryFilter { get; set ;}
-        
-        public int ShopFilter { get; set ;}
-        
-        public string Search { get; set ;}
-        
-        public int NumberOfItems { get; set ;}
-        
-        public int PageNumber { get; set ;}
-        
-        public string FundCode { get; set ;}
+        public string LanguageName { get; set; }
 
-        public string CatalogueItemReference { get; set ;}
+        public int CategoryFilter { get; set; }
+
+        public int ShopFilter { get; set; }
+
+        public string Search { get; set; }
+
+        public int NumberOfItems { get; set; }
+
+        public int PageNumber { get; set; }
+
+        public string FundCode { get; set; }
+
+        public string CatalogueItemReference { get; set; }
 
         public string ToQueryString()
         {

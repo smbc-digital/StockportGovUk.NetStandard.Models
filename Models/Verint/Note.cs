@@ -4,7 +4,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
 {
     public class Note
     {
-        public Note() {}
+        public Note() { }
 
         public Note(long id)
         {

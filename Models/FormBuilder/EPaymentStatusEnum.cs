@@ -17,3 +17,4 @@ namespace StockportGovUK.NetStandard.Models.FormBuilder
         Declined = 3
     }    
 }
+

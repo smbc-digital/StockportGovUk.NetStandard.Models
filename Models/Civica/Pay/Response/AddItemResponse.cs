@@ -4,7 +4,7 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Response
     {
         public bool Success { get; set; }
 
-        public int BasketItemReference {get; set; }
+        public int BasketItemReference { get; set; }
 
         public string ErrorMessage { get; set; }
 
@@ -12,12 +12,12 @@ namespace StockportGovUK.NetStandard.Models.Civica.Pay.Response
 
         public string ErrorSummary { get; set; }
 
-        public string FieldErrors  { get; set; }
+        public string FieldErrors { get; set; }
 
-        public double BasketCurrentTotal  { get; set; }
+        public double BasketCurrentTotal { get; set; }
 
         public int BasketCurrentCount { get; set; }
-        
+
         public string ResponseDescription { get; set; }
     }
 }

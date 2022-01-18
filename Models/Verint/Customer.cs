@@ -46,7 +46,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
                 }
 
                 if (!string.IsNullOrWhiteSpace(this.Title))
-                {    
+                {
                     fullName = (this.Title + " " + fullName).TrimEnd();
                 }
 

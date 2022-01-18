@@ -7,7 +7,7 @@ namespace StockportGovUK.NetStandard.Models.Verint
         Organisation,
 
         Street,
-        
+
         Property,
 
         Non

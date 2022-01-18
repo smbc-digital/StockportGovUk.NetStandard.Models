@@ -11,7 +11,7 @@ namespace StockportGovUK.NetStandard.Models.TrackAReport.Requests
 
         [Required]
         public EAssetType AssetType { get; set; }
-        
+
         [Required]
         public string AssetId { get; set; }
     }

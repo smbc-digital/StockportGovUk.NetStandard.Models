@@ -70,6 +70,7 @@
         BookSiteInspection,
         GenericHtmlReport,
         BaseHtmlTemplate,
-        StockportCanFund
+        StockportCanFund,
+        CarfRequest
     }
 }

@@ -12,6 +12,7 @@ namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
     [XmlRoot("Document")]
     public class CouncilTaxDocumentReference
     {
+        [XmlElement("DocumentName")]
         public string DocumentName { get; set; }
 
         [XmlAttribute("datecreated")]
@@ -28,5 +29,8 @@ namespace StockportGovUK.NetStandard.Models.Civica.CouncilTax
 
         [XmlElement("Ref1")]
         public string AccountReference { get; set; }
+
+        [XmlElement("Module")]
+        public string Module { get; set; }
     }
 }

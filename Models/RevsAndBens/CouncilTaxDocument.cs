@@ -5,6 +5,7 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
     [XmlType(AnonymousType = true)]
     public class CouncilTaxDocument
     {
+        [XmlElement("DocumentName")]
         public string DocumentName { get; set; }
 
         [XmlAttribute("datecreated")]
@@ -21,5 +22,8 @@ namespace StockportGovUK.NetStandard.Models.RevsAndBens
 
         [XmlElement("Ref1")]
         public string AccountReference { get; set; }
+
+        [XmlElement("Module")]
+        public string Module { get; set; }
     }
 }

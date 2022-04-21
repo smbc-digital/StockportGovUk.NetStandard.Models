@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
@@ -13,6 +14,21 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
         public int Contains { get; set; }
         public ContainedBy ContainedBy { get; set; }
         public List<History> History { get; set; }
-        public string PropertyCentralAssetId { get; set; }
+        
+        public bool IsAssisted
+        {
+            get
+            {
+                return 
+                    (AssistedCollection.Start != DateTime.MinValue
+                    && AssistedCollection.Start <= DateTime.Now)
+                    &&
+                    (AssistedCollection.Stop == DateTime.MinValue
+                    || AssistedCollection.Stop >= DateTime.Now);
+            }
+        }
+
     }
+
+    
 }

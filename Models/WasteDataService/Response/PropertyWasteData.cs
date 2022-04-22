@@ -27,8 +27,5 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
                     || AssistedCollection.Stop >= DateTime.Now);
             }
         }
-
     }
-
-    
 }

@@ -27,5 +27,7 @@ namespace StockportGovUK.NetStandard.Models.WasteDataService.Response
                     || AssistedCollection.Stop >= DateTime.Now);
             }
         }
+
+        public string PropertyCentralAssetId { get; set; }
     }
 }

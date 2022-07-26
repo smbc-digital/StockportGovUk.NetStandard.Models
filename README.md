@@ -1,4 +1,4 @@
-<h1 align="center">StockportGovUk.NetStandard.Models</h1>
+<h1 align="center">⛔ [DEPRECATED] StockportGovUk.NetStandard.Models</h1>
 
 <div align="center">
   :gem: :trophy: :art:
